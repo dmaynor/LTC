@@ -1,6 +1,6 @@
 # Token Efficiency Benchmark Results
 
-*Comparing token counts across 29 programming languages using BPE-style tokenization*
+*Comparing token counts across 29 programming languages using cl100k_base tokenization (GPT-4/Claude)*
 
 ## Methodology
 
@@ -22,46 +22,42 @@ All TIOBE Top 30 languages except Scratch (visual/block-based, not text-tokeniza
 7. **Error Handling** - Parse with success/failure indication
 8. **HTTP Request** - Network request with error handling
 
-### Tokenization Approach
-Uses BPE-style tokenization approximating cl100k_base encoding behavior:
-- Identifiers split on camelCase/snake_case boundaries
-- Common short words (≤4 chars) as single tokens
-- Strings tokenized at ~4 chars/token
-- Whitespace/indentation patterns tokenized
+### Tokenization
+Uses **cl100k_base** encoding via tiktoken - the same tokenizer used by GPT-4 and Claude models.
 
 ## Summary Table
 
 | Rank | Language | Total Tokens | Chars/Token | Tokens/Line | Tasks |
 |------|----------|--------------|-------------|-------------|-------|
-| 1 | sql | 56 | 2.55 | 8.0 | 2 |
-| 2 | sas | 105 | 2.61 | 6.18 | 3 |
-| 3 | prolog | 283 | 2.12 | 11.79 | 5 |
-| 4 | kotlin | 456 | 2.41 | 11.12 | 8 |
-| 5 | ruby | 460 | 2.33 | 8.21 | 8 |
-| 6 | julia | 461 | 2.44 | 8.23 | 8 |
-| 7 | python | 491 | 2.41 | 10.67 | 8 |
-| 8 | r | 580 | 2.23 | 11.15 | 8 |
-| 9 | assembly | 606 | 2.67 | 4.93 | 3 |
-| 10 | lua | 621 | 2.56 | 9.13 | 8 |
-| 11 | swift | 621 | 2.49 | 11.09 | 8 |
-| 12 | matlab | 623 | 2.45 | 9.03 | 8 |
-| 13 | perl | 638 | 2.25 | 9.38 | 8 |
-| 14 | javascript | 658 | 2.31 | 10.97 | 8 |
-| 15 | dart | 663 | 2.22 | 10.36 | 8 |
-| 16 | php | 668 | 2.39 | 10.95 | 8 |
-| 17 | rust | 678 | 2.24 | 10.76 | 8 |
-| 18 | csharp | 706 | 2.35 | 9.94 | 8 |
-| 19 | go | 790 | 2.18 | 6.64 | 8 |
-| 20 | classicvb | 831 | 2.78 | 9.44 | 8 |
-| 21 | visualbasic | 892 | 2.75 | 10.62 | 8 |
-| 22 | cpp | 1039 | 2.47 | 9.11 | 8 |
-| 23 | ada | 1172 | 2.61 | 10.37 | 8 |
-| 24 | fortran | 1188 | 2.63 | 10.07 | 8 |
-| 25 | objectivec | 1214 | 2.46 | 11.45 | 8 |
-| 26 | java | 1224 | 2.55 | 11.55 | 8 |
-| 27 | delphi | 1269 | 2.35 | 7.98 | 8 |
-| 28 | c | 1479 | 2.4 | 9.48 | 8 |
-| 29 | cobol | 1784 | 2.72 | 12.39 | 8 |
+| 1 | sql | 41 | 3.49 | 5.86 | 2 |
+| 2 | sas | 83 | 3.3 | 4.88 | 3 |
+| 3 | prolog | 219 | 2.74 | 9.12 | 5 |
+| 4 | kotlin | 317 | 3.46 | 7.73 | 8 |
+| 5 | python | 327 | 3.61 | 7.11 | 8 |
+| 6 | julia | 353 | 3.19 | 6.3 | 8 |
+| 7 | ruby | 363 | 2.95 | 6.48 | 8 |
+| 8 | r | 391 | 3.31 | 7.52 | 8 |
+| 9 | javascript | 412 | 3.69 | 6.87 | 8 |
+| 10 | csharp | 433 | 3.83 | 6.1 | 8 |
+| 11 | matlab | 437 | 3.49 | 6.33 | 8 |
+| 12 | swift | 443 | 3.49 | 7.91 | 8 |
+| 13 | dart | 450 | 3.28 | 7.03 | 8 |
+| 14 | lua | 458 | 3.47 | 6.74 | 8 |
+| 15 | rust | 471 | 3.23 | 7.48 | 8 |
+| 16 | perl | 478 | 3.01 | 7.03 | 8 |
+| 17 | php | 489 | 3.27 | 8.02 | 8 |
+| 18 | go | 514 | 3.34 | 4.32 | 8 |
+| 19 | visualbasic | 569 | 4.31 | 6.77 | 8 |
+| 20 | classicvb | 620 | 3.73 | 7.05 | 8 |
+| 21 | assembly | 651 | 2.49 | 5.29 | 3 |
+| 22 | java | 657 | 4.76 | 6.2 | 8 |
+| 23 | cpp | 704 | 3.64 | 6.18 | 8 |
+| 24 | objectivec | 714 | 4.18 | 6.74 | 8 |
+| 25 | ada | 810 | 3.77 | 7.17 | 8 |
+| 26 | delphi | 848 | 3.52 | 5.33 | 8 |
+| 27 | fortran | 894 | 3.49 | 7.58 | 8 |
+| 28 | c | 1020 | 3.49 | 6.54 | 8 |
+| 29 | cobol | 1362 | 3.56 | 9.46 | 8 |
 
 ## Normalized Comparison (8-Task Languages Only)
 
@@ -69,285 +65,287 @@ For fair comparison, considering only languages with all 8 tasks:
 
 | Rank | Language | Total Tokens | Efficiency vs Python |
 |------|----------|--------------|---------------------|
-| 1 | kotlin | 456 | 7.1% more efficient |
-| 2 | ruby | 460 | 6.3% more efficient |
-| 3 | julia | 461 | 6.1% more efficient |
-| 4 | python | 491 | baseline |
-| 5 | lua | 621 | 26.5% less efficient |
-| 6 | swift | 621 | 26.5% less efficient |
-| 7 | matlab | 623 | 26.9% less efficient |
-| 8 | perl | 638 | 29.9% less efficient |
-| 9 | javascript | 658 | 34.0% less efficient |
-| 10 | dart | 663 | 35.0% less efficient |
-| 11 | php | 668 | 36.0% less efficient |
-| 12 | rust | 678 | 38.1% less efficient |
-| 13 | csharp | 706 | 43.8% less efficient |
-| 14 | go | 790 | 60.9% less efficient |
-| 15 | classicvb | 831 | 69.2% less efficient |
-| 16 | visualbasic | 892 | 81.7% less efficient |
-| 17 | cpp | 1039 | 111.6% less efficient |
-| 18 | ada | 1172 | 138.7% less efficient |
-| 19 | fortran | 1188 | 141.9% less efficient |
-| 20 | objectivec | 1214 | 147.3% less efficient |
-| 21 | java | 1224 | 149.3% less efficient |
-| 22 | delphi | 1269 | 158.5% less efficient |
-| 23 | c | 1479 | 201.2% less efficient |
-| 24 | cobol | 1784 | 263.3% less efficient |
+| 1 | kotlin | 317 | 3.1% more efficient |
+| 2 | python | 327 | baseline |
+| 3 | julia | 353 | 8.0% less efficient |
+| 4 | ruby | 363 | 11.0% less efficient |
+| 5 | r | 391 | 19.6% less efficient |
+| 6 | javascript | 412 | 26.0% less efficient |
+| 7 | csharp | 433 | 32.4% less efficient |
+| 8 | matlab | 437 | 33.6% less efficient |
+| 9 | swift | 443 | 35.5% less efficient |
+| 10 | dart | 450 | 37.6% less efficient |
+| 11 | lua | 458 | 40.1% less efficient |
+| 12 | rust | 471 | 44.0% less efficient |
+| 13 | perl | 478 | 46.2% less efficient |
+| 14 | php | 489 | 49.5% less efficient |
+| 15 | go | 514 | 57.2% less efficient |
+| 16 | visualbasic | 569 | 74.0% less efficient |
+| 17 | classicvb | 620 | 89.6% less efficient |
+| 18 | java | 657 | 100.9% less efficient |
+| 19 | cpp | 704 | 115.3% less efficient |
+| 20 | objectivec | 714 | 118.3% less efficient |
+| 21 | ada | 810 | 147.7% less efficient |
+| 22 | delphi | 848 | 159.3% less efficient |
+| 23 | fortran | 894 | 173.4% less efficient |
+| 24 | c | 1020 | 211.9% less efficient |
+| 25 | cobol | 1362 | 316.5% less efficient |
 
 ## Per-Task Breakdown
+
 
 ### task1_hello
 
 | Rank | Language | Tokens |
 |------|----------|--------|
-| 1 | ruby | 6 |
-| 2 | matlab | 8 |
-| 3 | julia | 9 |
-| 4 | lua | 9 |
-| 5 | python | 9 |
-| 6 | r | 9 |
-| 7 | swift | 9 |
-| 8 | javascript | 12 |
-| 9 | php | 12 |
-| 10 | csharp | 14 |
-| 11 | sas | 15 |
-| 12 | classicvb | 16 |
-| 13 | kotlin | 18 |
-| 14 | perl | 18 |
-| 15 | dart | 19 |
-| 16 | rust | 20 |
-| 17 | fortran | 21 |
-| 18 | delphi | 24 |
-| 19 | prolog | 27 |
-| 20 | go | 30 |
-| 21 | visualbasic | 34 |
-| 22 | c | 37 |
-| 23 | cpp | 38 |
-| 24 | ada | 39 |
-| 25 | java | 46 |
-| 26 | cobol | 48 |
-| 27 | objectivec | 54 |
-| 28 | assembly | 84 |
+| 1 | julia | 6 |
+| 2 | lua | 6 |
+| 3 | matlab | 6 |
+| 4 | python | 6 |
+| 5 | r | 6 |
+| 6 | ruby | 6 |
+| 7 | swift | 6 |
+| 8 | csharp | 7 |
+| 9 | javascript | 7 |
+| 10 | php | 11 |
+| 11 | dart | 12 |
+| 12 | kotlin | 12 |
+| 13 | rust | 12 |
+| 14 | classicvb | 13 |
+| 15 | perl | 13 |
+| 16 | sas | 13 |
+| 17 | delphi | 15 |
+| 18 | fortran | 15 |
+| 19 | prolog | 15 |
+| 20 | go | 19 |
+| 21 | visualbasic | 22 |
+| 22 | c | 24 |
+| 23 | java | 26 |
+| 24 | ada | 27 |
+| 25 | cpp | 29 |
+| 26 | objectivec | 29 |
+| 27 | cobol | 31 |
+| 28 | assembly | 85 |
 
 ### task2_function
 
 | Rank | Language | Tokens |
 |------|----------|--------|
-| 1 | julia | 12 |
-| 2 | csharp | 16 |
-| 3 | dart | 16 |
-| 4 | ruby | 16 |
-| 5 | kotlin | 17 |
-| 6 | python | 17 |
-| 7 | prolog | 18 |
-| 8 | lua | 19 |
-| 9 | r | 20 |
-| 10 | javascript | 21 |
-| 11 | c | 22 |
-| 12 | cpp | 22 |
-| 13 | matlab | 22 |
-| 14 | objectivec | 22 |
-| 15 | rust | 23 |
-| 16 | swift | 23 |
-| 17 | go | 26 |
-| 18 | php | 29 |
-| 19 | assembly | 30 |
-| 20 | classicvb | 30 |
-| 21 | perl | 30 |
-| 22 | ada | 33 |
-| 23 | delphi | 33 |
-| 24 | java | 38 |
-| 25 | visualbasic | 41 |
-| 26 | fortran | 47 |
-| 27 | cobol | 117 |
+| 1 | julia | 10 |
+| 2 | python | 12 |
+| 3 | csharp | 13 |
+| 4 | dart | 13 |
+| 5 | ruby | 13 |
+| 6 | javascript | 14 |
+| 7 | lua | 14 |
+| 8 | prolog | 14 |
+| 9 | r | 14 |
+| 10 | kotlin | 15 |
+| 11 | c | 16 |
+| 12 | cpp | 16 |
+| 13 | objectivec | 16 |
+| 14 | matlab | 17 |
+| 15 | go | 18 |
+| 16 | delphi | 21 |
+| 17 | php | 21 |
+| 18 | swift | 21 |
+| 19 | perl | 22 |
+| 20 | rust | 22 |
+| 21 | ada | 23 |
+| 22 | classicvb | 23 |
+| 23 | java | 25 |
+| 24 | assembly | 29 |
+| 25 | visualbasic | 30 |
+| 26 | fortran | 36 |
+| 27 | cobol | 84 |
 
 ### task3_fizzbuzz
 
 | Rank | Language | Tokens |
 |------|----------|--------|
-| 1 | ruby | 64 |
-| 2 | julia | 75 |
-| 3 | kotlin | 77 |
-| 4 | python | 77 |
-| 5 | lua | 79 |
-| 6 | swift | 79 |
-| 7 | matlab | 80 |
-| 8 | r | 90 |
-| 9 | php | 91 |
-| 10 | prolog | 91 |
-| 11 | javascript | 102 |
-| 12 | perl | 103 |
-| 13 | rust | 105 |
-| 14 | csharp | 108 |
-| 15 | delphi | 110 |
-| 16 | classicvb | 111 |
-| 17 | dart | 111 |
-| 18 | go | 114 |
-| 19 | fortran | 123 |
-| 20 | c | 131 |
-| 21 | visualbasic | 139 |
-| 22 | cpp | 140 |
-| 23 | ada | 154 |
-| 24 | objectivec | 158 |
-| 25 | java | 160 |
-| 26 | cobol | 283 |
-| 27 | assembly | 492 |
+| 1 | python | 63 |
+| 2 | swift | 65 |
+| 3 | julia | 66 |
+| 4 | kotlin | 67 |
+| 5 | ruby | 68 |
+| 6 | lua | 71 |
+| 7 | matlab | 72 |
+| 8 | rust | 73 |
+| 9 | prolog | 75 |
+| 10 | r | 77 |
+| 11 | csharp | 79 |
+| 12 | javascript | 79 |
+| 13 | php | 82 |
+| 14 | perl | 85 |
+| 15 | go | 88 |
+| 16 | dart | 90 |
+| 17 | classicvb | 92 |
+| 18 | delphi | 95 |
+| 19 | visualbasic | 95 |
+| 20 | c | 99 |
+| 21 | objectivec | 103 |
+| 22 | java | 104 |
+| 23 | fortran | 106 |
+| 24 | ada | 122 |
+| 25 | cpp | 122 |
+| 26 | cobol | 224 |
+| 27 | assembly | 537 |
 
 ### task4_list
 
 | Rank | Language | Tokens |
 |------|----------|--------|
-| 1 | sql | 23 |
-| 2 | julia | 27 |
-| 3 | python | 32 |
-| 4 | kotlin | 36 |
-| 5 | sas | 36 |
-| 6 | ruby | 39 |
-| 7 | r | 40 |
-| 8 | perl | 41 |
-| 9 | javascript | 44 |
-| 10 | swift | 45 |
-| 11 | matlab | 46 |
-| 12 | dart | 54 |
-| 13 | csharp | 60 |
-| 14 | rust | 61 |
-| 15 | php | 68 |
-| 16 | prolog | 72 |
-| 17 | lua | 76 |
-| 18 | go | 85 |
-| 19 | visualbasic | 89 |
-| 20 | cpp | 105 |
-| 21 | classicvb | 108 |
-| 22 | java | 122 |
-| 23 | objectivec | 124 |
-| 24 | fortran | 134 |
-| 25 | ada | 154 |
-| 26 | c | 170 |
-| 27 | delphi | 183 |
-| 28 | cobol | 274 |
+| 1 | sql | 20 |
+| 2 | julia | 24 |
+| 3 | python | 26 |
+| 4 | kotlin | 28 |
+| 5 | sas | 29 |
+| 6 | javascript | 30 |
+| 7 | r | 30 |
+| 8 | ruby | 30 |
+| 9 | matlab | 34 |
+| 10 | perl | 34 |
+| 11 | swift | 37 |
+| 12 | csharp | 39 |
+| 13 | dart | 39 |
+| 14 | rust | 45 |
+| 15 | php | 48 |
+| 16 | lua | 54 |
+| 17 | prolog | 54 |
+| 18 | visualbasic | 57 |
+| 19 | go | 58 |
+| 20 | java | 68 |
+| 21 | cpp | 69 |
+| 22 | objectivec | 72 |
+| 23 | classicvb | 83 |
+| 24 | fortran | 107 |
+| 25 | ada | 108 |
+| 26 | c | 130 |
+| 27 | delphi | 131 |
+| 28 | cobol | 226 |
 
 ### task5_class
 
 | Rank | Language | Tokens |
 |------|----------|--------|
-| 1 | julia | 74 |
-| 2 | prolog | 75 |
-| 3 | swift | 90 |
-| 4 | python | 91 |
-| 5 | classicvb | 92 |
-| 6 | kotlin | 92 |
-| 7 | ruby | 95 |
-| 8 | dart | 98 |
-| 9 | javascript | 105 |
-| 10 | lua | 112 |
-| 11 | go | 124 |
-| 12 | php | 125 |
-| 13 | cpp | 126 |
-| 14 | r | 128 |
-| 15 | rust | 128 |
-| 16 | java | 135 |
-| 17 | c | 136 |
-| 18 | matlab | 136 |
-| 19 | perl | 141 |
-| 20 | visualbasic | 142 |
-| 21 | csharp | 145 |
-| 22 | fortran | 153 |
-| 23 | ada | 172 |
-| 24 | delphi | 232 |
-| 25 | objectivec | 241 |
-| 26 | cobol | 287 |
+| 1 | kotlin | 61 |
+| 2 | prolog | 61 |
+| 3 | swift | 62 |
+| 4 | python | 63 |
+| 5 | dart | 64 |
+| 6 | julia | 64 |
+| 7 | javascript | 65 |
+| 8 | classicvb | 70 |
+| 9 | lua | 74 |
+| 10 | ruby | 74 |
+| 11 | cpp | 76 |
+| 12 | go | 82 |
+| 13 | java | 82 |
+| 14 | php | 84 |
+| 15 | c | 88 |
+| 16 | csharp | 90 |
+| 17 | matlab | 91 |
+| 18 | r | 91 |
+| 19 | rust | 95 |
+| 20 | visualbasic | 99 |
+| 21 | perl | 101 |
+| 22 | fortran | 110 |
+| 23 | ada | 120 |
+| 24 | objectivec | 143 |
+| 25 | delphi | 154 |
+| 26 | cobol | 239 |
 
 ### task6_fileio
 
 | Rank | Language | Tokens |
 |------|----------|--------|
-| 1 | sql | 33 |
-| 2 | sas | 54 |
-| 3 | r | 101 |
-| 4 | ruby | 102 |
-| 5 | python | 112 |
-| 6 | perl | 130 |
-| 7 | julia | 133 |
-| 8 | kotlin | 135 |
-| 9 | matlab | 143 |
-| 10 | php | 151 |
-| 11 | csharp | 156 |
-| 12 | lua | 159 |
-| 13 | cpp | 166 |
-| 14 | swift | 177 |
-| 15 | dart | 178 |
-| 16 | visualbasic | 186 |
-| 17 | javascript | 188 |
-| 18 | rust | 209 |
-| 19 | go | 242 |
-| 20 | objectivec | 265 |
-| 21 | classicvb | 275 |
-| 22 | java | 317 |
-| 23 | delphi | 332 |
-| 24 | fortran | 364 |
-| 25 | ada | 373 |
-| 26 | c | 392 |
-| 27 | cobol | 405 |
+| 1 | sql | 21 |
+| 2 | sas | 41 |
+| 3 | r | 61 |
+| 4 | python | 70 |
+| 5 | ruby | 76 |
+| 6 | csharp | 84 |
+| 7 | kotlin | 85 |
+| 8 | matlab | 94 |
+| 9 | julia | 99 |
+| 10 | perl | 99 |
+| 11 | php | 104 |
+| 12 | visualbasic | 106 |
+| 13 | javascript | 108 |
+| 14 | cpp | 110 |
+| 15 | dart | 117 |
+| 16 | lua | 120 |
+| 17 | swift | 120 |
+| 18 | rust | 138 |
+| 19 | go | 147 |
+| 20 | java | 154 |
+| 21 | objectivec | 155 |
+| 22 | classicvb | 206 |
+| 23 | delphi | 211 |
+| 24 | c | 257 |
+| 25 | ada | 258 |
+| 26 | fortran | 282 |
+| 27 | cobol | 288 |
 
 ### task7_error
 
 | Rank | Language | Tokens |
 |------|----------|--------|
-| 1 | kotlin | 30 |
-| 2 | go | 42 |
-| 3 | rust | 51 |
-| 4 | python | 52 |
-| 5 | ruby | 54 |
-| 6 | julia | 59 |
-| 7 | lua | 78 |
-| 8 | csharp | 79 |
-| 9 | classicvb | 81 |
-| 10 | dart | 82 |
-| 11 | perl | 83 |
-| 12 | javascript | 86 |
-| 13 | swift | 94 |
-| 14 | php | 99 |
-| 15 | visualbasic | 112 |
-| 16 | r | 114 |
-| 17 | ada | 118 |
-| 18 | matlab | 120 |
-| 19 | delphi | 130 |
-| 20 | objectivec | 138 |
-| 21 | cpp | 141 |
-| 22 | java | 151 |
-| 23 | c | 165 |
-| 24 | fortran | 174 |
-| 25 | cobol | 198 |
+| 1 | kotlin | 18 |
+| 2 | go | 24 |
+| 3 | python | 30 |
+| 4 | rust | 33 |
+| 5 | ruby | 36 |
+| 6 | julia | 40 |
+| 7 | csharp | 50 |
+| 8 | dart | 52 |
+| 9 | javascript | 52 |
+| 10 | classicvb | 53 |
+| 11 | lua | 54 |
+| 12 | perl | 57 |
+| 13 | swift | 62 |
+| 14 | r | 65 |
+| 15 | php | 72 |
+| 16 | ada | 74 |
+| 17 | visualbasic | 74 |
+| 18 | java | 76 |
+| 19 | matlab | 77 |
+| 20 | cpp | 84 |
+| 21 | delphi | 84 |
+| 22 | objectivec | 84 |
+| 23 | c | 111 |
+| 24 | fortran | 122 |
+| 25 | cobol | 146 |
 
 ### task8_http
 
 | Rank | Language | Tokens |
 |------|----------|--------|
-| 1 | kotlin | 51 |
-| 2 | matlab | 68 |
-| 3 | julia | 72 |
-| 4 | r | 78 |
-| 5 | rust | 81 |
-| 6 | ruby | 84 |
-| 7 | lua | 89 |
-| 8 | perl | 92 |
-| 9 | php | 93 |
-| 10 | javascript | 100 |
-| 11 | python | 101 |
-| 12 | swift | 104 |
-| 13 | dart | 105 |
-| 14 | classicvb | 118 |
-| 15 | go | 127 |
-| 16 | csharp | 128 |
-| 17 | ada | 129 |
-| 18 | visualbasic | 149 |
-| 19 | cobol | 172 |
-| 20 | fortran | 172 |
-| 21 | objectivec | 212 |
-| 22 | delphi | 225 |
-| 23 | java | 255 |
-| 24 | cpp | 301 |
-| 25 | c | 426 |
+| 1 | kotlin | 31 |
+| 2 | julia | 44 |
+| 3 | matlab | 46 |
+| 4 | r | 47 |
+| 5 | rust | 53 |
+| 6 | javascript | 57 |
+| 7 | python | 57 |
+| 8 | ruby | 60 |
+| 9 | dart | 63 |
+| 10 | lua | 65 |
+| 11 | perl | 67 |
+| 12 | php | 67 |
+| 13 | swift | 70 |
+| 14 | csharp | 71 |
+| 15 | ada | 78 |
+| 16 | go | 78 |
+| 17 | classicvb | 80 |
+| 18 | visualbasic | 86 |
+| 19 | objectivec | 112 |
+| 20 | fortran | 116 |
+| 21 | java | 122 |
+| 22 | cobol | 124 |
+| 23 | delphi | 137 |
+| 24 | cpp | 198 |
+| 25 | c | 295 |
 
 ## Analysis
 
@@ -355,47 +353,47 @@ For fair comparison, considering only languages with all 8 tasks:
 
 #### Most Token-Efficient Languages (All 8 Tasks)
 
-1. **Kotlin** (456 tokens) - Concise syntax, type inference, extension functions
-2. **Ruby** (460 tokens) - Minimal boilerplate, expressive blocks
-3. **Julia** (461 tokens) - Mathematical notation, clean syntax
-4. **Python** (491 tokens) - Readable, minimal punctuation
-5. **Lua** (621 tokens) - Simple semantics, lightweight syntax
+1. **Kotlin** (317 tokens) - Concise syntax, type inference, extension functions
+2. **Python** (327 tokens) - Minimal syntax, whitespace-significant, excellent tokenizer training
+3. **Julia** (353 tokens) - Mathematical notation, Unicode support, clean syntax
+4. **Ruby** (363 tokens) - Minimal boilerplate, expressive blocks, clean syntax
+5. **R** (391 tokens) - Statistical computing optimized
 
 #### Least Token-Efficient Languages
 
-1. **COBOL** (1784 tokens) - Verbose English-like syntax, required divisions
-2. **C** (1479 tokens) - Manual memory management, explicit typing
-3. **Delphi** (1269 tokens) - Pascal heritage, verbose declarations
-4. **Java** (1224 tokens) - Verbose class structure, explicit types
-5. **Objective-C** (1214 tokens) - Message-passing syntax overhead
+1. **Cobol** (1362 tokens) - Verbose English-like syntax, required divisions
+2. **C** (1020 tokens) - Manual memory management, explicit typing, header includes
+3. **Fortran** (894 tokens) - Legacy syntax, explicit declarations
+4. **Delphi** (848 tokens) - Pascal heritage, verbose declarations
+5. **Ada** (810 tokens) - Verbose by design for safety, explicit everything
 
 ### Language Family Patterns
 
 | Family | Avg Tokens | Representative Languages |
 |--------|------------|-------------------------|
-| Dynamic Scripting | ~520 | Python, Ruby, Julia, Lua |
-| Modern JVM | ~840 | Kotlin, Java |
-| Modern Systems | ~734 | Rust, Go, Swift |
-| C-Family | ~1243 | C, C++, Objective-C |
-| Legacy Enterprise | ~1486 | COBOL, Fortran, Ada |
-| Visual Basic | ~862 | VB.NET, Classic VB |
+| Dynamic Scripting | ~396 | Python, Ruby, Julia, Lua, Perl |
+| Modern JVM | ~487 | Kotlin, Java |
+| Modern Systems | ~476 | Rust, Go, Swift |
+| C-Family | ~813 | C, Cpp, Objectivec |
+| Legacy Enterprise | ~1022 | Cobol, Fortran, Ada |
+| Visual Basic | ~594 | Visualbasic, Classicvb |
 
 ### Task Complexity Impact
 
 | Task | Avg Tokens | Variance | Most Efficient | Least Efficient |
 |------|-----------|----------|----------------|-----------------|
-| Hello World | 27 | High | Ruby (6) | Assembly (84) |
-| Function | 30 | Medium | Julia (12) | COBOL (117) |
-| FizzBuzz | 121 | High | Ruby (64) | Assembly (492) |
-| List Ops | 86 | High | SQL (23) | COBOL (274) |
-| Class | 134 | High | Julia (74) | COBOL (287) |
-| File I/O | 209 | Very High | SQL (33) | COBOL (405) |
-| Error Handling | 102 | High | Kotlin (30) | COBOL (198) |
-| HTTP | 137 | Very High | Kotlin (51) | C (426) |
+| Task 1: Hello | 17 | Very High | Julia (6) | Assembly (85) |
+| Task 2: Function | 21 | Very High | Julia (10) | Cobol (84) |
+| Task 3: Fizzbuzz | 107 | Very High | Python (63) | Assembly (537) |
+| Task 4: List | 61 | Very High | Sql (20) | Cobol (226) |
+| Task 5: Class | 92 | Very High | Kotlin (61) | Cobol (239) |
+| Task 6: Fileio | 134 | Very High | Sql (21) | Cobol (288) |
+| Task 7: Error | 65 | Very High | Kotlin (18) | Cobol (146) |
+| Task 8: Http | 89 | Very High | Kotlin (31) | C (295) |
 
 ### Implications for LLM Applications
 
-1. **Context Window Efficiency**: Using Kotlin/Ruby/Python over Java/C could reduce context usage by 60-200%
+1. **Context Window Efficiency**: Using Python/Ruby over Java/C could reduce context usage by 60-200%
 2. **Code Generation**: More token-efficient languages allow generating longer programs within output limits
 3. **Code Understanding**: Concise languages require fewer tokens to represent equivalent semantics
 4. **Multi-file Projects**: Token savings compound significantly across large codebases
@@ -405,16 +403,19 @@ For fair comparison, considering only languages with all 8 tasks:
 | Use Case | Recommended Language | Rationale |
 |----------|---------------------|-----------|
 | General scripting | Python | Balance of efficiency and ecosystem |
-| JVM projects | Kotlin | 2.7x more efficient than Java |
-| Systems programming | Rust | 54% more efficient than C |
+| JVM projects | Kotlin | 2-3x more efficient than Java |
+| Systems programming | Rust | 50%+ more efficient than C |
 | Web development | JavaScript | Standard for web, reasonable efficiency |
 | Data analysis | Julia or R | Domain-optimized, concise |
 | Mobile apps | Swift/Kotlin | Modern, efficient alternatives |
 
 ## Conclusion
 
-Among general-purpose languages with full task coverage, **Kotlin** emerges as the most token-efficient (456 tokens), followed closely by **Ruby** (460) and **Julia** (461). Python ranks 4th (491 tokens), making it a strong choice balancing efficiency with ecosystem support.
+Among general-purpose languages with full task coverage, **Kotlin** emerges as the most token-efficient (317 tokens), followed closely by **Python** (327) and **Julia** (353).
+ Python ranks #2 (327 tokens), making it a strong choice balancing efficiency with ecosystem support.
 
-The least efficient languages are legacy systems (COBOL, Fortran) and C-family languages requiring explicit memory management or verbose type declarations. Java's verbosity results in 2.7x more tokens than Kotlin for equivalent functionality.
+The least efficient languages are legacy systems (COBOL, Fortran) and C-family languages requiring explicit memory management or verbose type declarations.
+ Java's verbosity results in 2.1x more tokens than Kotlin for equivalent functionality.
+
 
 For LLM-based code generation and analysis, choosing token-efficient languages can significantly reduce costs and improve performance by maximizing the utility of context windows.

@@ -4,1760 +4,1760 @@
     "language": "ada",
     "task": "task1_hello",
     "characters": 101,
-    "tokens": 39,
+    "tokens": 27,
     "lines": 5,
-    "tokens_per_line": 7.8,
-    "chars_per_token": 2.59
+    "tokens_per_line": 5.4,
+    "chars_per_token": 3.74
   },
   {
     "filepath": "benchmark/ada/task2_function.adb",
     "language": "ada",
     "task": "task2_function",
     "characters": 79,
-    "tokens": 33,
+    "tokens": 23,
     "lines": 4,
-    "tokens_per_line": 8.25,
-    "chars_per_token": 2.39
+    "tokens_per_line": 5.75,
+    "chars_per_token": 3.43
   },
   {
     "filepath": "benchmark/ada/task3_fizzbuzz.adb",
     "language": "ada",
     "task": "task3_fizzbuzz",
     "characters": 410,
-    "tokens": 154,
+    "tokens": 122,
     "lines": 17,
-    "tokens_per_line": 9.06,
-    "chars_per_token": 2.66
+    "tokens_per_line": 7.18,
+    "chars_per_token": 3.36
   },
   {
     "filepath": "benchmark/ada/task4_list.adb",
     "language": "ada",
     "task": "task4_list",
     "characters": 419,
-    "tokens": 154,
+    "tokens": 108,
     "lines": 16,
-    "tokens_per_line": 9.62,
-    "chars_per_token": 2.72
+    "tokens_per_line": 6.75,
+    "chars_per_token": 3.88
   },
   {
     "filepath": "benchmark/ada/task5_class.adb",
     "language": "ada",
     "task": "task5_class",
     "characters": 430,
-    "tokens": 172,
+    "tokens": 120,
     "lines": 15,
-    "tokens_per_line": 11.47,
-    "chars_per_token": 2.5
+    "tokens_per_line": 8.0,
+    "chars_per_token": 3.58
   },
   {
     "filepath": "benchmark/ada/task6_fileio.adb",
     "language": "ada",
     "task": "task6_fileio",
     "characters": 949,
-    "tokens": 373,
+    "tokens": 258,
     "lines": 35,
-    "tokens_per_line": 10.66,
-    "chars_per_token": 2.54
+    "tokens_per_line": 7.37,
+    "chars_per_token": 3.68
   },
   {
     "filepath": "benchmark/ada/task7_error.adb",
     "language": "ada",
     "task": "task7_error",
     "characters": 318,
-    "tokens": 118,
+    "tokens": 74,
     "lines": 9,
-    "tokens_per_line": 13.11,
-    "chars_per_token": 2.69
+    "tokens_per_line": 8.22,
+    "chars_per_token": 4.3
   },
   {
     "filepath": "benchmark/ada/task8_http.adb",
     "language": "ada",
     "task": "task8_http",
     "characters": 349,
-    "tokens": 129,
+    "tokens": 78,
     "lines": 12,
-    "tokens_per_line": 10.75,
-    "chars_per_token": 2.71
+    "tokens_per_line": 6.5,
+    "chars_per_token": 4.47
   },
   {
     "filepath": "benchmark/assembly/task1_hello.asm",
     "language": "assembly",
     "task": "task1_hello",
     "characters": 229,
-    "tokens": 84,
+    "tokens": 85,
     "lines": 17,
-    "tokens_per_line": 4.94,
-    "chars_per_token": 2.73
+    "tokens_per_line": 5.0,
+    "chars_per_token": 2.69
   },
   {
     "filepath": "benchmark/assembly/task2_function.asm",
     "language": "assembly",
     "task": "task2_function",
     "characters": 77,
-    "tokens": 30,
+    "tokens": 29,
     "lines": 7,
-    "tokens_per_line": 4.29,
-    "chars_per_token": 2.57
+    "tokens_per_line": 4.14,
+    "chars_per_token": 2.66
   },
   {
     "filepath": "benchmark/assembly/task3_fizzbuzz.asm",
     "language": "assembly",
     "task": "task3_fizzbuzz",
     "characters": 1315,
-    "tokens": 492,
+    "tokens": 537,
     "lines": 99,
-    "tokens_per_line": 4.97,
-    "chars_per_token": 2.67
+    "tokens_per_line": 5.42,
+    "chars_per_token": 2.45
   },
   {
     "filepath": "benchmark/c/task1_hello.c",
     "language": "c",
     "task": "task1_hello",
     "characters": 80,
-    "tokens": 37,
+    "tokens": 24,
     "lines": 6,
-    "tokens_per_line": 6.17,
-    "chars_per_token": 2.16
+    "tokens_per_line": 4.0,
+    "chars_per_token": 3.33
   },
   {
     "filepath": "benchmark/c/task2_function.c",
     "language": "c",
     "task": "task2_function",
     "characters": 44,
-    "tokens": 22,
+    "tokens": 16,
     "lines": 3,
-    "tokens_per_line": 7.33,
-    "chars_per_token": 2.0
+    "tokens_per_line": 5.33,
+    "chars_per_token": 2.75
   },
   {
     "filepath": "benchmark/c/task3_fizzbuzz.c",
     "language": "c",
     "task": "task3_fizzbuzz",
     "characters": 313,
-    "tokens": 131,
+    "tokens": 99,
     "lines": 15,
-    "tokens_per_line": 8.73,
-    "chars_per_token": 2.39
+    "tokens_per_line": 6.6,
+    "chars_per_token": 3.16
   },
   {
     "filepath": "benchmark/c/task4_list.c",
     "language": "c",
     "task": "task4_list",
     "characters": 377,
-    "tokens": 170,
+    "tokens": 130,
     "lines": 16,
-    "tokens_per_line": 10.62,
-    "chars_per_token": 2.22
+    "tokens_per_line": 8.12,
+    "chars_per_token": 2.9
   },
   {
     "filepath": "benchmark/c/task5_class.c",
     "language": "c",
     "task": "task5_class",
     "characters": 305,
-    "tokens": 136,
+    "tokens": 88,
     "lines": 16,
-    "tokens_per_line": 8.5,
-    "chars_per_token": 2.24
+    "tokens_per_line": 5.5,
+    "chars_per_token": 3.47
   },
   {
     "filepath": "benchmark/c/task6_fileio.c",
     "language": "c",
     "task": "task6_fileio",
     "characters": 951,
-    "tokens": 392,
+    "tokens": 257,
     "lines": 38,
-    "tokens_per_line": 10.32,
-    "chars_per_token": 2.43
+    "tokens_per_line": 6.76,
+    "chars_per_token": 3.7
   },
   {
     "filepath": "benchmark/c/task7_error.c",
     "language": "c",
     "task": "task7_error",
     "characters": 380,
-    "tokens": 165,
+    "tokens": 111,
     "lines": 19,
-    "tokens_per_line": 8.68,
-    "chars_per_token": 2.3
+    "tokens_per_line": 5.84,
+    "chars_per_token": 3.42
   },
   {
     "filepath": "benchmark/c/task8_http.c",
     "language": "c",
     "task": "task8_http",
     "characters": 1106,
-    "tokens": 426,
+    "tokens": 295,
     "lines": 43,
-    "tokens_per_line": 9.91,
-    "chars_per_token": 2.6
+    "tokens_per_line": 6.86,
+    "chars_per_token": 3.75
   },
   {
     "filepath": "benchmark/classicvb/task1_hello.bas",
     "language": "classicvb",
     "task": "task1_hello",
     "characters": 46,
-    "tokens": 16,
+    "tokens": 13,
     "lines": 3,
-    "tokens_per_line": 5.33,
-    "chars_per_token": 2.88
+    "tokens_per_line": 4.33,
+    "chars_per_token": 3.54
   },
   {
     "filepath": "benchmark/classicvb/task2_function.bas",
     "language": "classicvb",
     "task": "task2_function",
     "characters": 81,
-    "tokens": 30,
+    "tokens": 23,
     "lines": 3,
-    "tokens_per_line": 10.0,
-    "chars_per_token": 2.7
+    "tokens_per_line": 7.67,
+    "chars_per_token": 3.52
   },
   {
     "filepath": "benchmark/classicvb/task3_fizzbuzz.bas",
     "language": "classicvb",
     "task": "task3_fizzbuzz",
     "characters": 320,
-    "tokens": 111,
+    "tokens": 92,
     "lines": 14,
-    "tokens_per_line": 7.93,
-    "chars_per_token": 2.88
+    "tokens_per_line": 6.57,
+    "chars_per_token": 3.48
   },
   {
     "filepath": "benchmark/classicvb/task4_list.bas",
     "language": "classicvb",
     "task": "task4_list",
     "characters": 301,
-    "tokens": 108,
+    "tokens": 83,
     "lines": 10,
-    "tokens_per_line": 10.8,
-    "chars_per_token": 2.79
+    "tokens_per_line": 8.3,
+    "chars_per_token": 3.63
   },
   {
     "filepath": "benchmark/classicvb/task5_class.bas",
     "language": "classicvb",
     "task": "task5_class",
     "characters": 234,
-    "tokens": 92,
+    "tokens": 70,
     "lines": 10,
-    "tokens_per_line": 9.2,
-    "chars_per_token": 2.54
+    "tokens_per_line": 7.0,
+    "chars_per_token": 3.34
   },
   {
     "filepath": "benchmark/classicvb/task6_fileio.bas",
     "language": "classicvb",
     "task": "task6_fileio",
     "characters": 787,
-    "tokens": 275,
+    "tokens": 206,
     "lines": 27,
-    "tokens_per_line": 10.19,
-    "chars_per_token": 2.86
+    "tokens_per_line": 7.63,
+    "chars_per_token": 3.82
   },
   {
     "filepath": "benchmark/classicvb/task7_error.bas",
     "language": "classicvb",
     "task": "task7_error",
     "characters": 215,
-    "tokens": 81,
+    "tokens": 53,
     "lines": 7,
-    "tokens_per_line": 11.57,
-    "chars_per_token": 2.65
+    "tokens_per_line": 7.57,
+    "chars_per_token": 4.06
   },
   {
     "filepath": "benchmark/classicvb/task8_http.bas",
     "language": "classicvb",
     "task": "task8_http",
     "characters": 329,
-    "tokens": 118,
+    "tokens": 80,
     "lines": 14,
-    "tokens_per_line": 8.43,
-    "chars_per_token": 2.79
+    "tokens_per_line": 5.71,
+    "chars_per_token": 4.11
   },
   {
     "filepath": "benchmark/cobol/task1_hello.cob",
     "language": "cobol",
     "task": "task1_hello",
     "characters": 142,
-    "tokens": 48,
+    "tokens": 31,
     "lines": 5,
-    "tokens_per_line": 9.6,
-    "chars_per_token": 2.96
+    "tokens_per_line": 6.2,
+    "chars_per_token": 4.58
   },
   {
     "filepath": "benchmark/cobol/task2_function.cob",
     "language": "cobol",
     "task": "task2_function",
     "characters": 292,
-    "tokens": 117,
+    "tokens": 84,
     "lines": 10,
-    "tokens_per_line": 11.7,
-    "chars_per_token": 2.5
+    "tokens_per_line": 8.4,
+    "chars_per_token": 3.48
   },
   {
     "filepath": "benchmark/cobol/task3_fizzbuzz.cob",
     "language": "cobol",
     "task": "task3_fizzbuzz",
     "characters": 824,
-    "tokens": 283,
+    "tokens": 224,
     "lines": 23,
-    "tokens_per_line": 12.3,
-    "chars_per_token": 2.91
+    "tokens_per_line": 9.74,
+    "chars_per_token": 3.68
   },
   {
     "filepath": "benchmark/cobol/task4_list.cob",
     "language": "cobol",
     "task": "task4_list",
     "characters": 697,
-    "tokens": 274,
+    "tokens": 226,
     "lines": 20,
-    "tokens_per_line": 13.7,
-    "chars_per_token": 2.54
+    "tokens_per_line": 11.3,
+    "chars_per_token": 3.08
   },
   {
     "filepath": "benchmark/cobol/task5_class.cob",
     "language": "cobol",
     "task": "task5_class",
     "characters": 678,
-    "tokens": 287,
+    "tokens": 239,
     "lines": 21,
-    "tokens_per_line": 13.67,
-    "chars_per_token": 2.36
+    "tokens_per_line": 11.38,
+    "chars_per_token": 2.84
   },
   {
     "filepath": "benchmark/cobol/task6_fileio.cob",
     "language": "cobol",
     "task": "task6_fileio",
     "characters": 1166,
-    "tokens": 405,
+    "tokens": 288,
     "lines": 34,
-    "tokens_per_line": 11.91,
-    "chars_per_token": 2.88
+    "tokens_per_line": 8.47,
+    "chars_per_token": 4.05
   },
   {
     "filepath": "benchmark/cobol/task7_error.cob",
     "language": "cobol",
     "task": "task7_error",
     "characters": 544,
-    "tokens": 198,
+    "tokens": 146,
     "lines": 17,
-    "tokens_per_line": 11.65,
-    "chars_per_token": 2.75
+    "tokens_per_line": 8.59,
+    "chars_per_token": 3.73
   },
   {
     "filepath": "benchmark/cobol/task8_http.cob",
     "language": "cobol",
     "task": "task8_http",
     "characters": 503,
-    "tokens": 172,
+    "tokens": 124,
     "lines": 14,
-    "tokens_per_line": 12.29,
-    "chars_per_token": 2.92
+    "tokens_per_line": 8.86,
+    "chars_per_token": 4.06
   },
   {
     "filepath": "benchmark/cpp/task1_hello.cpp",
     "language": "cpp",
     "task": "task1_hello",
     "characters": 97,
-    "tokens": 38,
+    "tokens": 29,
     "lines": 6,
-    "tokens_per_line": 6.33,
-    "chars_per_token": 2.55
+    "tokens_per_line": 4.83,
+    "chars_per_token": 3.34
   },
   {
     "filepath": "benchmark/cpp/task2_function.cpp",
     "language": "cpp",
     "task": "task2_function",
     "characters": 44,
-    "tokens": 22,
+    "tokens": 16,
     "lines": 3,
-    "tokens_per_line": 7.33,
-    "chars_per_token": 2.0
+    "tokens_per_line": 5.33,
+    "chars_per_token": 2.75
   },
   {
     "filepath": "benchmark/cpp/task3_fizzbuzz.cpp",
     "language": "cpp",
     "task": "task3_fizzbuzz",
     "characters": 372,
-    "tokens": 140,
+    "tokens": 122,
     "lines": 15,
-    "tokens_per_line": 9.33,
-    "chars_per_token": 2.66
+    "tokens_per_line": 8.13,
+    "chars_per_token": 3.05
   },
   {
     "filepath": "benchmark/cpp/task4_list.cpp",
     "language": "cpp",
     "task": "task4_list",
     "characters": 244,
-    "tokens": 105,
+    "tokens": 69,
     "lines": 11,
-    "tokens_per_line": 9.55,
-    "chars_per_token": 2.32
+    "tokens_per_line": 6.27,
+    "chars_per_token": 3.54
   },
   {
     "filepath": "benchmark/cpp/task5_class.cpp",
     "language": "cpp",
     "task": "task5_class",
     "characters": 276,
-    "tokens": 126,
+    "tokens": 76,
     "lines": 14,
-    "tokens_per_line": 9.0,
-    "chars_per_token": 2.19
+    "tokens_per_line": 5.43,
+    "chars_per_token": 3.63
   },
   {
     "filepath": "benchmark/cpp/task6_fileio.cpp",
     "language": "cpp",
     "task": "task6_fileio",
     "characters": 413,
-    "tokens": 166,
+    "tokens": 110,
     "lines": 17,
-    "tokens_per_line": 9.76,
-    "chars_per_token": 2.49
+    "tokens_per_line": 6.47,
+    "chars_per_token": 3.75
   },
   {
     "filepath": "benchmark/cpp/task7_error.cpp",
     "language": "cpp",
     "task": "task7_error",
     "characters": 322,
-    "tokens": 141,
+    "tokens": 84,
     "lines": 17,
-    "tokens_per_line": 8.29,
-    "chars_per_token": 2.28
+    "tokens_per_line": 4.94,
+    "chars_per_token": 3.83
   },
   {
     "filepath": "benchmark/cpp/task8_http.cpp",
     "language": "cpp",
     "task": "task8_http",
     "characters": 798,
-    "tokens": 301,
+    "tokens": 198,
     "lines": 31,
-    "tokens_per_line": 9.71,
-    "chars_per_token": 2.65
+    "tokens_per_line": 6.39,
+    "chars_per_token": 4.03
   },
   {
     "filepath": "benchmark/csharp/task1_hello.cs",
     "language": "csharp",
     "task": "task1_hello",
     "characters": 36,
-    "tokens": 14,
+    "tokens": 7,
     "lines": 1,
-    "tokens_per_line": 14.0,
-    "chars_per_token": 2.57
+    "tokens_per_line": 7.0,
+    "chars_per_token": 5.14
   },
   {
     "filepath": "benchmark/csharp/task2_function.cs",
     "language": "csharp",
     "task": "task2_function",
     "characters": 32,
-    "tokens": 16,
+    "tokens": 13,
     "lines": 1,
-    "tokens_per_line": 16.0,
-    "chars_per_token": 2.0
+    "tokens_per_line": 13.0,
+    "chars_per_token": 2.46
   },
   {
     "filepath": "benchmark/csharp/task3_fizzbuzz.cs",
     "language": "csharp",
     "task": "task3_fizzbuzz",
     "characters": 254,
-    "tokens": 108,
+    "tokens": 79,
     "lines": 11,
-    "tokens_per_line": 9.82,
-    "chars_per_token": 2.35
+    "tokens_per_line": 7.18,
+    "chars_per_token": 3.22
   },
   {
     "filepath": "benchmark/csharp/task4_list.cs",
     "language": "csharp",
     "task": "task4_list",
     "characters": 128,
-    "tokens": 60,
+    "tokens": 39,
     "lines": 4,
-    "tokens_per_line": 15.0,
-    "chars_per_token": 2.13
+    "tokens_per_line": 9.75,
+    "chars_per_token": 3.28
   },
   {
     "filepath": "benchmark/csharp/task5_class.cs",
     "language": "csharp",
     "task": "task5_class",
     "characters": 342,
-    "tokens": 145,
+    "tokens": 90,
     "lines": 20,
-    "tokens_per_line": 7.25,
-    "chars_per_token": 2.36
+    "tokens_per_line": 4.5,
+    "chars_per_token": 3.8
   },
   {
     "filepath": "benchmark/csharp/task6_fileio.cs",
     "language": "csharp",
     "task": "task6_fileio",
     "characters": 361,
-    "tokens": 156,
+    "tokens": 84,
     "lines": 13,
-    "tokens_per_line": 12.0,
-    "chars_per_token": 2.31
+    "tokens_per_line": 6.46,
+    "chars_per_token": 4.3
   },
   {
     "filepath": "benchmark/csharp/task7_error.cs",
     "language": "csharp",
     "task": "task7_error",
     "characters": 189,
-    "tokens": 79,
+    "tokens": 50,
     "lines": 6,
-    "tokens_per_line": 13.17,
-    "chars_per_token": 2.39
+    "tokens_per_line": 8.33,
+    "chars_per_token": 3.78
   },
   {
     "filepath": "benchmark/csharp/task8_http.cs",
     "language": "csharp",
     "task": "task8_http",
     "characters": 315,
-    "tokens": 128,
+    "tokens": 71,
     "lines": 15,
-    "tokens_per_line": 8.53,
-    "chars_per_token": 2.46
+    "tokens_per_line": 4.73,
+    "chars_per_token": 4.44
   },
   {
     "filepath": "benchmark/dart/task1_hello.dart",
     "language": "dart",
     "task": "task1_hello",
     "characters": 42,
-    "tokens": 19,
+    "tokens": 12,
     "lines": 3,
-    "tokens_per_line": 6.33,
-    "chars_per_token": 2.21
+    "tokens_per_line": 4.0,
+    "chars_per_token": 3.5
   },
   {
     "filepath": "benchmark/dart/task2_function.dart",
     "language": "dart",
     "task": "task2_function",
     "characters": 32,
-    "tokens": 16,
+    "tokens": 13,
     "lines": 1,
-    "tokens_per_line": 16.0,
-    "chars_per_token": 2.0
+    "tokens_per_line": 13.0,
+    "chars_per_token": 2.46
   },
   {
     "filepath": "benchmark/dart/task3_fizzbuzz.dart",
     "language": "dart",
     "task": "task3_fizzbuzz",
     "characters": 238,
-    "tokens": 111,
+    "tokens": 90,
     "lines": 13,
-    "tokens_per_line": 8.54,
-    "chars_per_token": 2.14
+    "tokens_per_line": 6.92,
+    "chars_per_token": 2.64
   },
   {
     "filepath": "benchmark/dart/task4_list.dart",
     "language": "dart",
     "task": "task4_list",
     "characters": 109,
-    "tokens": 54,
+    "tokens": 39,
     "lines": 2,
-    "tokens_per_line": 27.0,
-    "chars_per_token": 2.02
+    "tokens_per_line": 19.5,
+    "chars_per_token": 2.79
   },
   {
     "filepath": "benchmark/dart/task5_class.dart",
     "language": "dart",
     "task": "task5_class",
     "characters": 212,
-    "tokens": 98,
+    "tokens": 64,
     "lines": 13,
-    "tokens_per_line": 7.54,
-    "chars_per_token": 2.16
+    "tokens_per_line": 4.92,
+    "chars_per_token": 3.31
   },
   {
     "filepath": "benchmark/dart/task6_fileio.dart",
     "language": "dart",
     "task": "task6_fileio",
     "characters": 414,
-    "tokens": 178,
+    "tokens": 117,
     "lines": 15,
-    "tokens_per_line": 11.87,
-    "chars_per_token": 2.33
+    "tokens_per_line": 7.8,
+    "chars_per_token": 3.54
   },
   {
     "filepath": "benchmark/dart/task7_error.dart",
     "language": "dart",
     "task": "task7_error",
     "characters": 185,
-    "tokens": 82,
+    "tokens": 52,
     "lines": 7,
-    "tokens_per_line": 11.71,
-    "chars_per_token": 2.26
+    "tokens_per_line": 7.43,
+    "chars_per_token": 3.56
   },
   {
     "filepath": "benchmark/dart/task8_http.dart",
     "language": "dart",
     "task": "task8_http",
     "characters": 243,
-    "tokens": 105,
+    "tokens": 63,
     "lines": 10,
-    "tokens_per_line": 10.5,
-    "chars_per_token": 2.31
+    "tokens_per_line": 6.3,
+    "chars_per_token": 3.86
   },
   {
     "filepath": "benchmark/delphi/task1_hello.pas",
     "language": "delphi",
     "task": "task1_hello",
     "characters": 54,
-    "tokens": 24,
+    "tokens": 15,
     "lines": 4,
-    "tokens_per_line": 6.0,
-    "chars_per_token": 2.25
+    "tokens_per_line": 3.75,
+    "chars_per_token": 3.6
   },
   {
     "filepath": "benchmark/delphi/task2_function.pas",
     "language": "delphi",
     "task": "task2_function",
     "characters": 68,
-    "tokens": 33,
+    "tokens": 21,
     "lines": 4,
-    "tokens_per_line": 8.25,
-    "chars_per_token": 2.06
+    "tokens_per_line": 5.25,
+    "chars_per_token": 3.24
   },
   {
     "filepath": "benchmark/delphi/task3_fizzbuzz.pas",
     "language": "delphi",
     "task": "task3_fizzbuzz",
     "characters": 265,
-    "tokens": 110,
+    "tokens": 95,
     "lines": 16,
-    "tokens_per_line": 6.88,
-    "chars_per_token": 2.41
+    "tokens_per_line": 5.94,
+    "chars_per_token": 2.79
   },
   {
     "filepath": "benchmark/delphi/task4_list.pas",
     "language": "delphi",
     "task": "task4_list",
     "characters": 413,
-    "tokens": 183,
+    "tokens": 131,
     "lines": 18,
-    "tokens_per_line": 10.17,
-    "chars_per_token": 2.26
+    "tokens_per_line": 7.28,
+    "chars_per_token": 3.15
   },
   {
     "filepath": "benchmark/delphi/task5_class.pas",
     "language": "delphi",
     "task": "task5_class",
     "characters": 521,
-    "tokens": 232,
+    "tokens": 154,
     "lines": 35,
-    "tokens_per_line": 6.63,
-    "chars_per_token": 2.25
+    "tokens_per_line": 4.4,
+    "chars_per_token": 3.38
   },
   {
     "filepath": "benchmark/delphi/task6_fileio.pas",
     "language": "delphi",
     "task": "task6_fileio",
     "characters": 797,
-    "tokens": 332,
+    "tokens": 211,
     "lines": 36,
-    "tokens_per_line": 9.22,
-    "chars_per_token": 2.4
+    "tokens_per_line": 5.86,
+    "chars_per_token": 3.78
   },
   {
     "filepath": "benchmark/delphi/task7_error.pas",
     "language": "delphi",
     "task": "task7_error",
     "characters": 315,
-    "tokens": 130,
+    "tokens": 84,
     "lines": 16,
-    "tokens_per_line": 8.12,
-    "chars_per_token": 2.42
+    "tokens_per_line": 5.25,
+    "chars_per_token": 3.75
   },
   {
     "filepath": "benchmark/delphi/task8_http.pas",
     "language": "delphi",
     "task": "task8_http",
     "characters": 550,
-    "tokens": 225,
+    "tokens": 137,
     "lines": 30,
-    "tokens_per_line": 7.5,
-    "chars_per_token": 2.44
+    "tokens_per_line": 4.57,
+    "chars_per_token": 4.01
   },
   {
     "filepath": "benchmark/fortran/task1_hello.f90",
     "language": "fortran",
     "task": "task1_hello",
     "characters": 61,
-    "tokens": 21,
+    "tokens": 15,
     "lines": 3,
-    "tokens_per_line": 7.0,
-    "chars_per_token": 2.9
+    "tokens_per_line": 5.0,
+    "chars_per_token": 4.07
   },
   {
     "filepath": "benchmark/fortran/task2_function.f90",
     "language": "fortran",
     "task": "task2_function",
     "characters": 109,
-    "tokens": 47,
+    "tokens": 36,
     "lines": 5,
-    "tokens_per_line": 9.4,
-    "chars_per_token": 2.32
+    "tokens_per_line": 7.2,
+    "chars_per_token": 3.03
   },
   {
     "filepath": "benchmark/fortran/task3_fizzbuzz.f90",
     "language": "fortran",
     "task": "task3_fizzbuzz",
     "characters": 333,
-    "tokens": 123,
+    "tokens": 106,
     "lines": 14,
-    "tokens_per_line": 8.79,
-    "chars_per_token": 2.71
+    "tokens_per_line": 7.57,
+    "chars_per_token": 3.14
   },
   {
     "filepath": "benchmark/fortran/task4_list.f90",
     "language": "fortran",
     "task": "task4_list",
     "characters": 317,
-    "tokens": 134,
+    "tokens": 107,
     "lines": 12,
-    "tokens_per_line": 11.17,
-    "chars_per_token": 2.37
+    "tokens_per_line": 8.92,
+    "chars_per_token": 2.96
   },
   {
     "filepath": "benchmark/fortran/task5_class.f90",
     "language": "fortran",
     "task": "task5_class",
     "characters": 412,
-    "tokens": 153,
+    "tokens": 110,
     "lines": 16,
-    "tokens_per_line": 9.56,
-    "chars_per_token": 2.69
+    "tokens_per_line": 6.88,
+    "chars_per_token": 3.75
   },
   {
     "filepath": "benchmark/fortran/task6_fileio.f90",
     "language": "fortran",
     "task": "task6_fileio",
     "characters": 925,
-    "tokens": 364,
+    "tokens": 282,
     "lines": 38,
-    "tokens_per_line": 9.58,
-    "chars_per_token": 2.54
+    "tokens_per_line": 7.42,
+    "chars_per_token": 3.28
   },
   {
     "filepath": "benchmark/fortran/task7_error.f90",
     "language": "fortran",
     "task": "task7_error",
     "characters": 448,
-    "tokens": 174,
+    "tokens": 122,
     "lines": 17,
-    "tokens_per_line": 10.24,
-    "chars_per_token": 2.57
+    "tokens_per_line": 7.18,
+    "chars_per_token": 3.67
   },
   {
     "filepath": "benchmark/fortran/task8_http.f90",
     "language": "fortran",
     "task": "task8_http",
     "characters": 517,
-    "tokens": 172,
+    "tokens": 116,
     "lines": 13,
-    "tokens_per_line": 13.23,
-    "chars_per_token": 3.01
+    "tokens_per_line": 8.92,
+    "chars_per_token": 4.46
   },
   {
     "filepath": "benchmark/go/task1_hello.go",
     "language": "go",
     "task": "task1_hello",
     "characters": 74,
-    "tokens": 30,
+    "tokens": 19,
     "lines": 7,
-    "tokens_per_line": 4.29,
-    "chars_per_token": 2.47
+    "tokens_per_line": 2.71,
+    "chars_per_token": 3.89
   },
   {
     "filepath": "benchmark/go/task2_function.go",
     "language": "go",
     "task": "task2_function",
     "characters": 55,
-    "tokens": 26,
+    "tokens": 18,
     "lines": 5,
-    "tokens_per_line": 5.2,
-    "chars_per_token": 2.12
+    "tokens_per_line": 3.6,
+    "chars_per_token": 3.06
   },
   {
     "filepath": "benchmark/go/task3_fizzbuzz.go",
     "language": "go",
     "task": "task3_fizzbuzz",
     "characters": 245,
-    "tokens": 114,
+    "tokens": 88,
     "lines": 18,
-    "tokens_per_line": 6.33,
-    "chars_per_token": 2.15
+    "tokens_per_line": 4.89,
+    "chars_per_token": 2.78
   },
   {
     "filepath": "benchmark/go/task4_list.go",
     "language": "go",
     "task": "task4_list",
     "characters": 175,
-    "tokens": 85,
+    "tokens": 58,
     "lines": 11,
-    "tokens_per_line": 7.73,
-    "chars_per_token": 2.06
+    "tokens_per_line": 5.27,
+    "chars_per_token": 3.02
   },
   {
     "filepath": "benchmark/go/task5_class.go",
     "language": "go",
     "task": "task5_class",
     "characters": 257,
-    "tokens": 124,
+    "tokens": 82,
     "lines": 17,
-    "tokens_per_line": 7.29,
-    "chars_per_token": 2.07
+    "tokens_per_line": 4.82,
+    "chars_per_token": 3.13
   },
   {
     "filepath": "benchmark/go/task6_fileio.go",
     "language": "go",
     "task": "task6_fileio",
     "characters": 536,
-    "tokens": 242,
+    "tokens": 147,
     "lines": 34,
-    "tokens_per_line": 7.12,
-    "chars_per_token": 2.21
+    "tokens_per_line": 4.32,
+    "chars_per_token": 3.65
   },
   {
     "filepath": "benchmark/go/task7_error.go",
     "language": "go",
     "task": "task7_error",
     "characters": 97,
-    "tokens": 42,
+    "tokens": 24,
     "lines": 7,
-    "tokens_per_line": 6.0,
-    "chars_per_token": 2.31
+    "tokens_per_line": 3.43,
+    "chars_per_token": 4.04
   },
   {
     "filepath": "benchmark/go/task8_http.go",
     "language": "go",
     "task": "task8_http",
     "characters": 280,
-    "tokens": 127,
+    "tokens": 78,
     "lines": 20,
-    "tokens_per_line": 6.35,
-    "chars_per_token": 2.2
+    "tokens_per_line": 3.9,
+    "chars_per_token": 3.59
   },
   {
     "filepath": "benchmark/java/task1_hello.java",
     "language": "java",
     "task": "task1_hello",
     "characters": 119,
-    "tokens": 46,
+    "tokens": 26,
     "lines": 5,
-    "tokens_per_line": 9.2,
-    "chars_per_token": 2.59
+    "tokens_per_line": 5.2,
+    "chars_per_token": 4.58
   },
   {
     "filepath": "benchmark/java/task2_function.java",
     "language": "java",
     "task": "task2_function",
     "characters": 92,
-    "tokens": 38,
+    "tokens": 25,
     "lines": 5,
-    "tokens_per_line": 7.6,
-    "chars_per_token": 2.42
+    "tokens_per_line": 5.0,
+    "chars_per_token": 3.68
   },
   {
     "filepath": "benchmark/java/task3_fizzbuzz.java",
     "language": "java",
     "task": "task3_fizzbuzz",
     "characters": 415,
-    "tokens": 160,
+    "tokens": 104,
     "lines": 14,
-    "tokens_per_line": 11.43,
-    "chars_per_token": 2.59
+    "tokens_per_line": 7.43,
+    "chars_per_token": 3.99
   },
   {
     "filepath": "benchmark/java/task4_list.java",
     "language": "java",
     "task": "task4_list",
     "characters": 301,
-    "tokens": 122,
+    "tokens": 68,
     "lines": 11,
-    "tokens_per_line": 11.09,
-    "chars_per_token": 2.47
+    "tokens_per_line": 6.18,
+    "chars_per_token": 4.43
   },
   {
     "filepath": "benchmark/java/task5_class.java",
     "language": "java",
     "task": "task5_class",
     "characters": 325,
-    "tokens": 135,
+    "tokens": 82,
     "lines": 15,
-    "tokens_per_line": 9.0,
-    "chars_per_token": 2.41
+    "tokens_per_line": 5.47,
+    "chars_per_token": 3.96
   },
   {
     "filepath": "benchmark/java/task6_fileio.java",
     "language": "java",
     "task": "task6_fileio",
     "characters": 826,
-    "tokens": 317,
+    "tokens": 154,
     "lines": 23,
-    "tokens_per_line": 13.78,
-    "chars_per_token": 2.61
+    "tokens_per_line": 6.7,
+    "chars_per_token": 5.36
   },
   {
     "filepath": "benchmark/java/task7_error.java",
     "language": "java",
     "task": "task7_error",
     "characters": 384,
-    "tokens": 151,
+    "tokens": 76,
     "lines": 13,
-    "tokens_per_line": 11.62,
-    "chars_per_token": 2.54
+    "tokens_per_line": 5.85,
+    "chars_per_token": 5.05
   },
   {
     "filepath": "benchmark/java/task8_http.java",
     "language": "java",
     "task": "task8_http",
     "characters": 663,
-    "tokens": 255,
+    "tokens": 122,
     "lines": 20,
-    "tokens_per_line": 12.75,
-    "chars_per_token": 2.6
+    "tokens_per_line": 6.1,
+    "chars_per_token": 5.43
   },
   {
     "filepath": "benchmark/javascript/task1_hello.js",
     "language": "javascript",
     "task": "task1_hello",
     "characters": 30,
-    "tokens": 12,
+    "tokens": 7,
     "lines": 1,
-    "tokens_per_line": 12.0,
-    "chars_per_token": 2.5
+    "tokens_per_line": 7.0,
+    "chars_per_token": 4.29
   },
   {
     "filepath": "benchmark/javascript/task2_function.js",
     "language": "javascript",
     "task": "task2_function",
     "characters": 41,
-    "tokens": 21,
+    "tokens": 14,
     "lines": 3,
-    "tokens_per_line": 7.0,
-    "chars_per_token": 1.95
+    "tokens_per_line": 4.67,
+    "chars_per_token": 2.93
   },
   {
     "filepath": "benchmark/javascript/task3_fizzbuzz.js",
     "language": "javascript",
     "task": "task3_fizzbuzz",
     "characters": 233,
-    "tokens": 102,
+    "tokens": 79,
     "lines": 10,
-    "tokens_per_line": 10.2,
-    "chars_per_token": 2.28
+    "tokens_per_line": 7.9,
+    "chars_per_token": 2.95
   },
   {
     "filepath": "benchmark/javascript/task4_list.js",
     "language": "javascript",
     "task": "task4_list",
     "characters": 95,
-    "tokens": 44,
+    "tokens": 30,
     "lines": 3,
-    "tokens_per_line": 14.67,
-    "chars_per_token": 2.16
+    "tokens_per_line": 10.0,
+    "chars_per_token": 3.17
   },
   {
     "filepath": "benchmark/javascript/task5_class.js",
     "language": "javascript",
     "task": "task5_class",
     "characters": 236,
-    "tokens": 105,
+    "tokens": 65,
     "lines": 12,
-    "tokens_per_line": 8.75,
-    "chars_per_token": 2.25
+    "tokens_per_line": 5.42,
+    "chars_per_token": 3.63
   },
   {
     "filepath": "benchmark/javascript/task6_fileio.js",
     "language": "javascript",
     "task": "task6_fileio",
     "characters": 422,
-    "tokens": 188,
+    "tokens": 108,
     "lines": 16,
-    "tokens_per_line": 11.75,
-    "chars_per_token": 2.24
+    "tokens_per_line": 6.75,
+    "chars_per_token": 3.91
   },
   {
     "filepath": "benchmark/javascript/task7_error.js",
     "language": "javascript",
     "task": "task7_error",
     "characters": 208,
-    "tokens": 86,
+    "tokens": 52,
     "lines": 6,
-    "tokens_per_line": 14.33,
-    "chars_per_token": 2.42
+    "tokens_per_line": 8.67,
+    "chars_per_token": 4.0
   },
   {
     "filepath": "benchmark/javascript/task8_http.js",
     "language": "javascript",
     "task": "task8_http",
     "characters": 255,
-    "tokens": 100,
+    "tokens": 57,
     "lines": 9,
-    "tokens_per_line": 11.11,
-    "chars_per_token": 2.55
+    "tokens_per_line": 6.33,
+    "chars_per_token": 4.47
   },
   {
     "filepath": "benchmark/julia/task1_hello.jl",
     "language": "julia",
     "task": "task1_hello",
     "characters": 25,
-    "tokens": 9,
+    "tokens": 6,
     "lines": 1,
-    "tokens_per_line": 9.0,
-    "chars_per_token": 2.78
+    "tokens_per_line": 6.0,
+    "chars_per_token": 4.17
   },
   {
     "filepath": "benchmark/julia/task2_function.jl",
     "language": "julia",
     "task": "task2_function",
     "characters": 18,
-    "tokens": 12,
+    "tokens": 10,
     "lines": 1,
-    "tokens_per_line": 12.0,
-    "chars_per_token": 1.5
+    "tokens_per_line": 10.0,
+    "chars_per_token": 1.8
   },
   {
     "filepath": "benchmark/julia/task3_fizzbuzz.jl",
     "language": "julia",
     "task": "task3_fizzbuzz",
     "characters": 194,
-    "tokens": 75,
+    "tokens": 66,
     "lines": 11,
-    "tokens_per_line": 6.82,
-    "chars_per_token": 2.59
+    "tokens_per_line": 6.0,
+    "chars_per_token": 2.94
   },
   {
     "filepath": "benchmark/julia/task4_list.jl",
     "language": "julia",
     "task": "task4_list",
     "characters": 63,
-    "tokens": 27,
+    "tokens": 24,
     "lines": 1,
-    "tokens_per_line": 27.0,
-    "chars_per_token": 2.33
+    "tokens_per_line": 24.0,
+    "chars_per_token": 2.62
   },
   {
     "filepath": "benchmark/julia/task5_class.jl",
     "language": "julia",
     "task": "task5_class",
     "characters": 159,
-    "tokens": 74,
+    "tokens": 64,
     "lines": 10,
-    "tokens_per_line": 7.4,
-    "chars_per_token": 2.15
+    "tokens_per_line": 6.4,
+    "chars_per_token": 2.48
   },
   {
     "filepath": "benchmark/julia/task6_fileio.jl",
     "language": "julia",
     "task": "task6_fileio",
     "characters": 351,
-    "tokens": 133,
+    "tokens": 99,
     "lines": 15,
-    "tokens_per_line": 8.87,
-    "chars_per_token": 2.64
+    "tokens_per_line": 6.6,
+    "chars_per_token": 3.55
   },
   {
     "filepath": "benchmark/julia/task7_error.jl",
     "language": "julia",
     "task": "task7_error",
     "characters": 137,
-    "tokens": 59,
+    "tokens": 40,
     "lines": 7,
-    "tokens_per_line": 8.43,
-    "chars_per_token": 2.32
+    "tokens_per_line": 5.71,
+    "chars_per_token": 3.42
   },
   {
     "filepath": "benchmark/julia/task8_http.jl",
     "language": "julia",
     "task": "task8_http",
     "characters": 180,
-    "tokens": 72,
+    "tokens": 44,
     "lines": 10,
-    "tokens_per_line": 7.2,
-    "chars_per_token": 2.5
+    "tokens_per_line": 4.4,
+    "chars_per_token": 4.09
   },
   {
     "filepath": "benchmark/kotlin/task1_hello.kt",
     "language": "kotlin",
     "task": "task1_hello",
     "characters": 44,
-    "tokens": 18,
+    "tokens": 12,
     "lines": 3,
-    "tokens_per_line": 6.0,
-    "chars_per_token": 2.44
+    "tokens_per_line": 4.0,
+    "chars_per_token": 3.67
   },
   {
     "filepath": "benchmark/kotlin/task2_function.kt",
     "language": "kotlin",
     "task": "task2_function",
     "characters": 32,
-    "tokens": 17,
+    "tokens": 15,
     "lines": 1,
-    "tokens_per_line": 17.0,
-    "chars_per_token": 1.88
+    "tokens_per_line": 15.0,
+    "chars_per_token": 2.13
   },
   {
     "filepath": "benchmark/kotlin/task3_fizzbuzz.kt",
     "language": "kotlin",
     "task": "task3_fizzbuzz",
     "characters": 205,
-    "tokens": 77,
+    "tokens": 67,
     "lines": 10,
-    "tokens_per_line": 7.7,
-    "chars_per_token": 2.66
+    "tokens_per_line": 6.7,
+    "chars_per_token": 3.06
   },
   {
     "filepath": "benchmark/kotlin/task4_list.kt",
     "language": "kotlin",
     "task": "task4_list",
     "characters": 84,
-    "tokens": 36,
+    "tokens": 28,
     "lines": 1,
-    "tokens_per_line": 36.0,
-    "chars_per_token": 2.33
+    "tokens_per_line": 28.0,
+    "chars_per_token": 3.0
   },
   {
     "filepath": "benchmark/kotlin/task5_class.kt",
     "language": "kotlin",
     "task": "task5_class",
     "characters": 222,
-    "tokens": 92,
+    "tokens": 61,
     "lines": 9,
-    "tokens_per_line": 10.22,
-    "chars_per_token": 2.41
+    "tokens_per_line": 6.78,
+    "chars_per_token": 3.64
   },
   {
     "filepath": "benchmark/kotlin/task6_fileio.kt",
     "language": "kotlin",
     "task": "task6_fileio",
     "characters": 333,
-    "tokens": 135,
+    "tokens": 85,
     "lines": 11,
-    "tokens_per_line": 12.27,
-    "chars_per_token": 2.47
+    "tokens_per_line": 7.73,
+    "chars_per_token": 3.92
   },
   {
     "filepath": "benchmark/kotlin/task7_error.kt",
     "language": "kotlin",
     "task": "task7_error",
     "characters": 65,
-    "tokens": 30,
+    "tokens": 18,
     "lines": 1,
-    "tokens_per_line": 30.0,
-    "chars_per_token": 2.17
+    "tokens_per_line": 18.0,
+    "chars_per_token": 3.61
   },
   {
     "filepath": "benchmark/kotlin/task8_http.kt",
     "language": "kotlin",
     "task": "task8_http",
     "characters": 113,
-    "tokens": 51,
+    "tokens": 31,
     "lines": 5,
-    "tokens_per_line": 10.2,
-    "chars_per_token": 2.22
+    "tokens_per_line": 6.2,
+    "chars_per_token": 3.65
   },
   {
     "filepath": "benchmark/lua/task1_hello.lua",
     "language": "lua",
     "task": "task1_hello",
     "characters": 23,
-    "tokens": 9,
+    "tokens": 6,
     "lines": 1,
-    "tokens_per_line": 9.0,
-    "chars_per_token": 2.56
+    "tokens_per_line": 6.0,
+    "chars_per_token": 3.83
   },
   {
     "filepath": "benchmark/lua/task2_function.lua",
     "language": "lua",
     "task": "task2_function",
     "characters": 40,
-    "tokens": 19,
+    "tokens": 14,
     "lines": 3,
-    "tokens_per_line": 6.33,
-    "chars_per_token": 2.11
+    "tokens_per_line": 4.67,
+    "chars_per_token": 2.86
   },
   {
     "filepath": "benchmark/lua/task3_fizzbuzz.lua",
     "language": "lua",
     "task": "task3_fizzbuzz",
     "characters": 204,
-    "tokens": 79,
+    "tokens": 71,
     "lines": 11,
-    "tokens_per_line": 7.18,
-    "chars_per_token": 2.58
+    "tokens_per_line": 6.45,
+    "chars_per_token": 2.87
   },
   {
     "filepath": "benchmark/lua/task4_list.lua",
     "language": "lua",
     "task": "task4_list",
     "characters": 197,
-    "tokens": 76,
+    "tokens": 54,
     "lines": 9,
-    "tokens_per_line": 8.44,
-    "chars_per_token": 2.59
+    "tokens_per_line": 6.0,
+    "chars_per_token": 3.65
   },
   {
     "filepath": "benchmark/lua/task5_class.lua",
     "language": "lua",
     "task": "task5_class",
     "characters": 253,
-    "tokens": 112,
+    "tokens": 74,
     "lines": 12,
-    "tokens_per_line": 9.33,
-    "chars_per_token": 2.26
+    "tokens_per_line": 6.17,
+    "chars_per_token": 3.42
   },
   {
     "filepath": "benchmark/lua/task6_fileio.lua",
     "language": "lua",
     "task": "task6_fileio",
     "characters": 413,
-    "tokens": 159,
+    "tokens": 120,
     "lines": 16,
-    "tokens_per_line": 9.94,
-    "chars_per_token": 2.6
+    "tokens_per_line": 7.5,
+    "chars_per_token": 3.44
   },
   {
     "filepath": "benchmark/lua/task7_error.lua",
     "language": "lua",
     "task": "task7_error",
     "characters": 203,
-    "tokens": 78,
+    "tokens": 54,
     "lines": 7,
-    "tokens_per_line": 11.14,
-    "chars_per_token": 2.6
+    "tokens_per_line": 7.71,
+    "chars_per_token": 3.76
   },
   {
     "filepath": "benchmark/lua/task8_http.lua",
     "language": "lua",
     "task": "task8_http",
     "characters": 254,
-    "tokens": 89,
+    "tokens": 65,
     "lines": 9,
-    "tokens_per_line": 9.89,
-    "chars_per_token": 2.85
+    "tokens_per_line": 7.22,
+    "chars_per_token": 3.91
   },
   {
     "filepath": "benchmark/matlab/task1_hello.m",
     "language": "matlab",
     "task": "task1_hello",
     "characters": 22,
-    "tokens": 8,
+    "tokens": 6,
     "lines": 1,
-    "tokens_per_line": 8.0,
-    "chars_per_token": 2.75
+    "tokens_per_line": 6.0,
+    "chars_per_token": 3.67
   },
   {
     "filepath": "benchmark/matlab/task2_function.m",
     "language": "matlab",
     "task": "task2_function",
     "characters": 42,
-    "tokens": 22,
+    "tokens": 17,
     "lines": 3,
-    "tokens_per_line": 7.33,
-    "chars_per_token": 1.91
+    "tokens_per_line": 5.67,
+    "chars_per_token": 2.47
   },
   {
     "filepath": "benchmark/matlab/task3_fizzbuzz.m",
     "language": "matlab",
     "task": "task3_fizzbuzz",
     "characters": 193,
-    "tokens": 80,
+    "tokens": 72,
     "lines": 11,
-    "tokens_per_line": 7.27,
-    "chars_per_token": 2.41
+    "tokens_per_line": 6.55,
+    "chars_per_token": 2.68
   },
   {
     "filepath": "benchmark/matlab/task4_list.m",
     "language": "matlab",
     "task": "task4_list",
     "characters": 111,
-    "tokens": 46,
+    "tokens": 34,
     "lines": 4,
-    "tokens_per_line": 11.5,
-    "chars_per_token": 2.41
+    "tokens_per_line": 8.5,
+    "chars_per_token": 3.26
   },
   {
     "filepath": "benchmark/matlab/task5_class.m",
     "language": "matlab",
     "task": "task5_class",
     "characters": 335,
-    "tokens": 136,
+    "tokens": 91,
     "lines": 17,
-    "tokens_per_line": 8.0,
-    "chars_per_token": 2.46
+    "tokens_per_line": 5.35,
+    "chars_per_token": 3.68
   },
   {
     "filepath": "benchmark/matlab/task6_fileio.m",
     "language": "matlab",
     "task": "task6_fileio",
     "characters": 343,
-    "tokens": 143,
+    "tokens": 94,
     "lines": 12,
-    "tokens_per_line": 11.92,
-    "chars_per_token": 2.4
+    "tokens_per_line": 7.83,
+    "chars_per_token": 3.65
   },
   {
     "filepath": "benchmark/matlab/task7_error.m",
     "language": "matlab",
     "task": "task7_error",
     "characters": 301,
-    "tokens": 120,
+    "tokens": 77,
     "lines": 12,
-    "tokens_per_line": 10.0,
-    "chars_per_token": 2.51
+    "tokens_per_line": 6.42,
+    "chars_per_token": 3.91
   },
   {
     "filepath": "benchmark/matlab/task8_http.m",
     "language": "matlab",
     "task": "task8_http",
     "characters": 178,
-    "tokens": 68,
+    "tokens": 46,
     "lines": 9,
-    "tokens_per_line": 7.56,
-    "chars_per_token": 2.62
+    "tokens_per_line": 5.11,
+    "chars_per_token": 3.87
   },
   {
     "filepath": "benchmark/objectivec/task1_hello.m",
     "language": "objectivec",
     "task": "task1_hello",
     "characters": 126,
-    "tokens": 54,
+    "tokens": 29,
     "lines": 8,
-    "tokens_per_line": 6.75,
-    "chars_per_token": 2.33
+    "tokens_per_line": 3.62,
+    "chars_per_token": 4.34
   },
   {
     "filepath": "benchmark/objectivec/task2_function.m",
     "language": "objectivec",
     "task": "task2_function",
     "characters": 44,
-    "tokens": 22,
+    "tokens": 16,
     "lines": 3,
-    "tokens_per_line": 7.33,
-    "chars_per_token": 2.0
+    "tokens_per_line": 5.33,
+    "chars_per_token": 2.75
   },
   {
     "filepath": "benchmark/objectivec/task3_fizzbuzz.m",
     "language": "objectivec",
     "task": "task3_fizzbuzz",
     "characters": 389,
-    "tokens": 158,
+    "tokens": 103,
     "lines": 17,
-    "tokens_per_line": 9.29,
-    "chars_per_token": 2.46
+    "tokens_per_line": 6.06,
+    "chars_per_token": 3.78
   },
   {
     "filepath": "benchmark/objectivec/task4_list.m",
     "language": "objectivec",
     "task": "task4_list",
     "characters": 290,
-    "tokens": 124,
+    "tokens": 72,
     "lines": 11,
-    "tokens_per_line": 11.27,
-    "chars_per_token": 2.34
+    "tokens_per_line": 6.55,
+    "chars_per_token": 4.03
   },
   {
     "filepath": "benchmark/objectivec/task5_class.m",
     "language": "objectivec",
     "task": "task5_class",
     "characters": 530,
-    "tokens": 241,
+    "tokens": 143,
     "lines": 26,
-    "tokens_per_line": 9.27,
-    "chars_per_token": 2.2
+    "tokens_per_line": 5.5,
+    "chars_per_token": 3.71
   },
   {
     "filepath": "benchmark/objectivec/task6_fileio.m",
     "language": "objectivec",
     "task": "task6_fileio",
     "characters": 712,
-    "tokens": 265,
+    "tokens": 155,
     "lines": 17,
-    "tokens_per_line": 15.59,
-    "chars_per_token": 2.69
+    "tokens_per_line": 9.12,
+    "chars_per_token": 4.59
   },
   {
     "filepath": "benchmark/objectivec/task7_error.m",
     "language": "objectivec",
     "task": "task7_error",
     "characters": 335,
-    "tokens": 138,
+    "tokens": 84,
     "lines": 10,
-    "tokens_per_line": 13.8,
-    "chars_per_token": 2.43
+    "tokens_per_line": 8.4,
+    "chars_per_token": 3.99
   },
   {
     "filepath": "benchmark/objectivec/task8_http.m",
     "language": "objectivec",
     "task": "task8_http",
     "characters": 561,
-    "tokens": 212,
+    "tokens": 112,
     "lines": 14,
-    "tokens_per_line": 15.14,
-    "chars_per_token": 2.65
+    "tokens_per_line": 8.0,
+    "chars_per_token": 5.01
   },
   {
     "filepath": "benchmark/perl/task1_hello.pl",
     "language": "perl",
     "task": "task1_hello",
     "characters": 41,
-    "tokens": 18,
+    "tokens": 13,
     "lines": 2,
-    "tokens_per_line": 9.0,
-    "chars_per_token": 2.28
+    "tokens_per_line": 6.5,
+    "chars_per_token": 3.15
   },
   {
     "filepath": "benchmark/perl/task2_function.pl",
     "language": "perl",
     "task": "task2_function",
     "characters": 54,
-    "tokens": 30,
+    "tokens": 22,
     "lines": 4,
-    "tokens_per_line": 7.5,
-    "chars_per_token": 1.8
+    "tokens_per_line": 5.5,
+    "chars_per_token": 2.45
   },
   {
     "filepath": "benchmark/perl/task3_fizzbuzz.pl",
     "language": "perl",
     "task": "task3_fizzbuzz",
     "characters": 236,
-    "tokens": 103,
+    "tokens": 85,
     "lines": 12,
-    "tokens_per_line": 8.58,
-    "chars_per_token": 2.29
+    "tokens_per_line": 7.08,
+    "chars_per_token": 2.78
   },
   {
     "filepath": "benchmark/perl/task4_list.pl",
     "language": "perl",
     "task": "task4_list",
     "characters": 100,
-    "tokens": 41,
+    "tokens": 34,
     "lines": 4,
-    "tokens_per_line": 10.25,
-    "chars_per_token": 2.44
+    "tokens_per_line": 8.5,
+    "chars_per_token": 2.94
   },
   {
     "filepath": "benchmark/perl/task5_class.pl",
     "language": "perl",
     "task": "task5_class",
     "characters": 277,
-    "tokens": 141,
+    "tokens": 101,
     "lines": 15,
-    "tokens_per_line": 9.4,
-    "chars_per_token": 1.96
+    "tokens_per_line": 6.73,
+    "chars_per_token": 2.74
   },
   {
     "filepath": "benchmark/perl/task6_fileio.pl",
     "language": "perl",
     "task": "task6_fileio",
     "characters": 314,
-    "tokens": 130,
+    "tokens": 99,
     "lines": 14,
-    "tokens_per_line": 9.29,
-    "chars_per_token": 2.42
+    "tokens_per_line": 7.07,
+    "chars_per_token": 3.17
   },
   {
     "filepath": "benchmark/perl/task7_error.pl",
     "language": "perl",
     "task": "task7_error",
     "characters": 184,
-    "tokens": 83,
+    "tokens": 57,
     "lines": 7,
-    "tokens_per_line": 11.86,
-    "chars_per_token": 2.22
+    "tokens_per_line": 8.14,
+    "chars_per_token": 3.23
   },
   {
     "filepath": "benchmark/perl/task8_http.pl",
     "language": "perl",
     "task": "task8_http",
     "characters": 231,
-    "tokens": 92,
+    "tokens": 67,
     "lines": 10,
-    "tokens_per_line": 9.2,
-    "chars_per_token": 2.51
+    "tokens_per_line": 6.7,
+    "chars_per_token": 3.45
   },
   {
     "filepath": "benchmark/php/task1_hello.php",
     "language": "php",
     "task": "task1_hello",
     "characters": 30,
-    "tokens": 12,
+    "tokens": 11,
     "lines": 2,
-    "tokens_per_line": 6.0,
-    "chars_per_token": 2.5
+    "tokens_per_line": 5.5,
+    "chars_per_token": 2.73
   },
   {
     "filepath": "benchmark/php/task2_function.php",
     "language": "php",
     "task": "task2_function",
     "characters": 51,
-    "tokens": 29,
+    "tokens": 21,
     "lines": 4,
-    "tokens_per_line": 7.25,
-    "chars_per_token": 1.76
+    "tokens_per_line": 5.25,
+    "chars_per_token": 2.43
   },
   {
     "filepath": "benchmark/php/task3_fizzbuzz.php",
     "language": "php",
     "task": "task3_fizzbuzz",
     "characters": 215,
-    "tokens": 91,
+    "tokens": 82,
     "lines": 11,
-    "tokens_per_line": 8.27,
-    "chars_per_token": 2.36
+    "tokens_per_line": 7.45,
+    "chars_per_token": 2.62
   },
   {
     "filepath": "benchmark/php/task4_list.php",
     "language": "php",
     "task": "task4_list",
     "characters": 142,
-    "tokens": 68,
+    "tokens": 48,
     "lines": 4,
-    "tokens_per_line": 17.0,
-    "chars_per_token": 2.09
+    "tokens_per_line": 12.0,
+    "chars_per_token": 2.96
   },
   {
     "filepath": "benchmark/php/task5_class.php",
     "language": "php",
     "task": "task5_class",
     "characters": 290,
-    "tokens": 125,
+    "tokens": 84,
     "lines": 13,
-    "tokens_per_line": 9.62,
-    "chars_per_token": 2.32
+    "tokens_per_line": 6.46,
+    "chars_per_token": 3.45
   },
   {
     "filepath": "benchmark/php/task6_fileio.php",
     "language": "php",
     "task": "task6_fileio",
     "characters": 378,
-    "tokens": 151,
+    "tokens": 104,
     "lines": 12,
-    "tokens_per_line": 12.58,
-    "chars_per_token": 2.5
+    "tokens_per_line": 8.67,
+    "chars_per_token": 3.63
   },
   {
     "filepath": "benchmark/php/task7_error.php",
     "language": "php",
     "task": "task7_error",
     "characters": 243,
-    "tokens": 99,
+    "tokens": 72,
     "lines": 7,
-    "tokens_per_line": 14.14,
-    "chars_per_token": 2.45
+    "tokens_per_line": 10.29,
+    "chars_per_token": 3.38
   },
   {
     "filepath": "benchmark/php/task8_http.php",
     "language": "php",
     "task": "task8_http",
     "characters": 249,
-    "tokens": 93,
+    "tokens": 67,
     "lines": 8,
-    "tokens_per_line": 11.62,
-    "chars_per_token": 2.68
+    "tokens_per_line": 8.38,
+    "chars_per_token": 3.72
   },
   {
     "filepath": "benchmark/prolog/task1_hello.pl",
     "language": "prolog",
     "task": "task1_hello",
     "characters": 62,
-    "tokens": 27,
+    "tokens": 15,
     "lines": 3,
-    "tokens_per_line": 9.0,
-    "chars_per_token": 2.3
+    "tokens_per_line": 5.0,
+    "chars_per_token": 4.13
   },
   {
     "filepath": "benchmark/prolog/task2_function.pl",
     "language": "prolog",
     "task": "task2_function",
     "characters": 28,
-    "tokens": 18,
+    "tokens": 14,
     "lines": 1,
-    "tokens_per_line": 18.0,
-    "chars_per_token": 1.56
+    "tokens_per_line": 14.0,
+    "chars_per_token": 2.0
   },
   {
     "filepath": "benchmark/prolog/task3_fizzbuzz.pl",
     "language": "prolog",
     "task": "task3_fizzbuzz",
     "characters": 204,
-    "tokens": 91,
+    "tokens": 75,
     "lines": 8,
-    "tokens_per_line": 11.38,
-    "chars_per_token": 2.24
+    "tokens_per_line": 9.38,
+    "chars_per_token": 2.72
   },
   {
     "filepath": "benchmark/prolog/task4_list.pl",
     "language": "prolog",
     "task": "task4_list",
     "characters": 158,
-    "tokens": 72,
+    "tokens": 54,
     "lines": 6,
-    "tokens_per_line": 12.0,
-    "chars_per_token": 2.19
+    "tokens_per_line": 9.0,
+    "chars_per_token": 2.93
   },
   {
     "filepath": "benchmark/prolog/task5_class.pl",
     "language": "prolog",
     "task": "task5_class",
     "characters": 147,
-    "tokens": 75,
+    "tokens": 61,
     "lines": 6,
-    "tokens_per_line": 12.5,
-    "chars_per_token": 1.96
+    "tokens_per_line": 10.17,
+    "chars_per_token": 2.41
   },
   {
     "filepath": "benchmark/python/task1_hello.py",
     "language": "python",
     "task": "task1_hello",
     "characters": 23,
-    "tokens": 9,
+    "tokens": 6,
     "lines": 1,
-    "tokens_per_line": 9.0,
-    "chars_per_token": 2.56
+    "tokens_per_line": 6.0,
+    "chars_per_token": 3.83
   },
   {
     "filepath": "benchmark/python/task2_function.py",
     "language": "python",
     "task": "task2_function",
     "characters": 32,
-    "tokens": 17,
+    "tokens": 12,
     "lines": 2,
-    "tokens_per_line": 8.5,
-    "chars_per_token": 1.88
+    "tokens_per_line": 6.0,
+    "chars_per_token": 2.67
   },
   {
     "filepath": "benchmark/python/task3_fizzbuzz.py",
     "language": "python",
     "task": "task3_fizzbuzz",
     "characters": 183,
-    "tokens": 77,
+    "tokens": 63,
     "lines": 9,
-    "tokens_per_line": 8.56,
-    "chars_per_token": 2.38
+    "tokens_per_line": 7.0,
+    "chars_per_token": 2.9
   },
   {
     "filepath": "benchmark/python/task4_list.py",
     "language": "python",
     "task": "task4_list",
     "characters": 77,
-    "tokens": 32,
+    "tokens": 26,
     "lines": 2,
-    "tokens_per_line": 16.0,
-    "chars_per_token": 2.41
+    "tokens_per_line": 13.0,
+    "chars_per_token": 2.96
   },
   {
     "filepath": "benchmark/python/task5_class.py",
     "language": "python",
     "task": "task5_class",
     "characters": 205,
-    "tokens": 91,
+    "tokens": 63,
     "lines": 9,
-    "tokens_per_line": 10.11,
-    "chars_per_token": 2.25
+    "tokens_per_line": 7.0,
+    "chars_per_token": 3.25
   },
   {
     "filepath": "benchmark/python/task6_fileio.py",
     "language": "python",
     "task": "task6_fileio",
     "characters": 291,
-    "tokens": 112,
+    "tokens": 70,
     "lines": 9,
-    "tokens_per_line": 12.44,
-    "chars_per_token": 2.6
+    "tokens_per_line": 7.78,
+    "chars_per_token": 4.16
   },
   {
     "filepath": "benchmark/python/task7_error.py",
     "language": "python",
     "task": "task7_error",
     "characters": 116,
-    "tokens": 52,
+    "tokens": 30,
     "lines": 5,
-    "tokens_per_line": 10.4,
-    "chars_per_token": 2.23
+    "tokens_per_line": 6.0,
+    "chars_per_token": 3.87
   },
   {
     "filepath": "benchmark/python/task8_http.py",
     "language": "python",
     "task": "task8_http",
     "characters": 255,
-    "tokens": 101,
+    "tokens": 57,
     "lines": 9,
-    "tokens_per_line": 11.22,
-    "chars_per_token": 2.52
+    "tokens_per_line": 6.33,
+    "chars_per_token": 4.47
   },
   {
     "filepath": "benchmark/r/task1_hello.r",
     "language": "r",
     "task": "task1_hello",
     "characters": 23,
-    "tokens": 9,
+    "tokens": 6,
     "lines": 1,
-    "tokens_per_line": 9.0,
-    "chars_per_token": 2.56
+    "tokens_per_line": 6.0,
+    "chars_per_token": 3.83
   },
   {
     "filepath": "benchmark/r/task2_function.r",
     "language": "r",
     "task": "task2_function",
     "characters": 34,
-    "tokens": 20,
+    "tokens": 14,
     "lines": 3,
-    "tokens_per_line": 6.67,
-    "chars_per_token": 1.7
+    "tokens_per_line": 4.67,
+    "chars_per_token": 2.43
   },
   {
     "filepath": "benchmark/r/task3_fizzbuzz.r",
     "language": "r",
     "task": "task3_fizzbuzz",
     "characters": 185,
-    "tokens": 90,
+    "tokens": 77,
     "lines": 11,
-    "tokens_per_line": 8.18,
-    "chars_per_token": 2.06
+    "tokens_per_line": 7.0,
+    "chars_per_token": 2.4
   },
   {
     "filepath": "benchmark/r/task4_list.r",
     "language": "r",
     "task": "task4_list",
     "characters": 88,
-    "tokens": 40,
+    "tokens": 30,
     "lines": 4,
-    "tokens_per_line": 10.0,
-    "chars_per_token": 2.2
+    "tokens_per_line": 7.5,
+    "chars_per_token": 2.93
   },
   {
     "filepath": "benchmark/r/task5_class.r",
     "language": "r",
     "task": "task5_class",
     "characters": 276,
-    "tokens": 128,
+    "tokens": 91,
     "lines": 12,
-    "tokens_per_line": 10.67,
-    "chars_per_token": 2.16
+    "tokens_per_line": 7.58,
+    "chars_per_token": 3.03
   },
   {
     "filepath": "benchmark/r/task6_fileio.r",
     "language": "r",
     "task": "task6_fileio",
     "characters": 239,
-    "tokens": 101,
+    "tokens": 61,
     "lines": 7,
-    "tokens_per_line": 14.43,
-    "chars_per_token": 2.37
+    "tokens_per_line": 8.71,
+    "chars_per_token": 3.92
   },
   {
     "filepath": "benchmark/r/task7_error.r",
     "language": "r",
     "task": "task7_error",
     "characters": 266,
-    "tokens": 114,
+    "tokens": 65,
     "lines": 8,
-    "tokens_per_line": 14.25,
-    "chars_per_token": 2.33
+    "tokens_per_line": 8.12,
+    "chars_per_token": 4.09
   },
   {
     "filepath": "benchmark/r/task8_http.r",
     "language": "r",
     "task": "task8_http",
     "characters": 185,
-    "tokens": 78,
+    "tokens": 47,
     "lines": 6,
-    "tokens_per_line": 13.0,
-    "chars_per_token": 2.37
+    "tokens_per_line": 7.83,
+    "chars_per_token": 3.94
   },
   {
     "filepath": "benchmark/ruby/task1_hello.rb",
@@ -1774,359 +1774,359 @@
     "language": "ruby",
     "task": "task2_function",
     "characters": 26,
-    "tokens": 16,
+    "tokens": 13,
     "lines": 3,
-    "tokens_per_line": 5.33,
-    "chars_per_token": 1.62
+    "tokens_per_line": 4.33,
+    "chars_per_token": 2.0
   },
   {
     "filepath": "benchmark/ruby/task3_fizzbuzz.rb",
     "language": "ruby",
     "task": "task3_fizzbuzz",
     "characters": 156,
-    "tokens": 64,
+    "tokens": 68,
     "lines": 11,
-    "tokens_per_line": 5.82,
-    "chars_per_token": 2.44
+    "tokens_per_line": 6.18,
+    "chars_per_token": 2.29
   },
   {
     "filepath": "benchmark/ruby/task4_list.rb",
     "language": "ruby",
     "task": "task4_list",
     "characters": 81,
-    "tokens": 39,
+    "tokens": 30,
     "lines": 3,
-    "tokens_per_line": 13.0,
-    "chars_per_token": 2.08
+    "tokens_per_line": 10.0,
+    "chars_per_token": 2.7
   },
   {
     "filepath": "benchmark/ruby/task5_class.rb",
     "language": "ruby",
     "task": "task5_class",
     "characters": 198,
-    "tokens": 95,
+    "tokens": 74,
     "lines": 14,
-    "tokens_per_line": 6.79,
-    "chars_per_token": 2.08
+    "tokens_per_line": 5.29,
+    "chars_per_token": 2.68
   },
   {
     "filepath": "benchmark/ruby/task6_fileio.rb",
     "language": "ruby",
     "task": "task6_fileio",
     "characters": 251,
-    "tokens": 102,
+    "tokens": 76,
     "lines": 9,
-    "tokens_per_line": 11.33,
-    "chars_per_token": 2.46
+    "tokens_per_line": 8.44,
+    "chars_per_token": 3.3
   },
   {
     "filepath": "benchmark/ruby/task7_error.rb",
     "language": "ruby",
     "task": "task7_error",
     "characters": 125,
-    "tokens": 54,
+    "tokens": 36,
     "lines": 5,
-    "tokens_per_line": 10.8,
-    "chars_per_token": 2.31
+    "tokens_per_line": 7.2,
+    "chars_per_token": 3.47
   },
   {
     "filepath": "benchmark/ruby/task8_http.rb",
     "language": "ruby",
     "task": "task8_http",
     "characters": 213,
-    "tokens": 84,
+    "tokens": 60,
     "lines": 10,
-    "tokens_per_line": 8.4,
-    "chars_per_token": 2.54
+    "tokens_per_line": 6.0,
+    "chars_per_token": 3.55
   },
   {
     "filepath": "benchmark/rust/task1_hello.rs",
     "language": "rust",
     "task": "task1_hello",
     "characters": 45,
-    "tokens": 20,
+    "tokens": 12,
     "lines": 3,
-    "tokens_per_line": 6.67,
-    "chars_per_token": 2.25
+    "tokens_per_line": 4.0,
+    "chars_per_token": 3.75
   },
   {
     "filepath": "benchmark/rust/task2_function.rs",
     "language": "rust",
     "task": "task2_function",
     "characters": 44,
-    "tokens": 23,
+    "tokens": 22,
     "lines": 3,
-    "tokens_per_line": 7.67,
-    "chars_per_token": 1.91
+    "tokens_per_line": 7.33,
+    "chars_per_token": 2.0
   },
   {
     "filepath": "benchmark/rust/task3_fizzbuzz.rs",
     "language": "rust",
     "task": "task3_fizzbuzz",
     "characters": 244,
-    "tokens": 105,
+    "tokens": 73,
     "lines": 10,
-    "tokens_per_line": 10.5,
-    "chars_per_token": 2.32
+    "tokens_per_line": 7.3,
+    "chars_per_token": 3.34
   },
   {
     "filepath": "benchmark/rust/task4_list.rs",
     "language": "rust",
     "task": "task4_list",
     "characters": 117,
-    "tokens": 61,
+    "tokens": 45,
     "lines": 3,
-    "tokens_per_line": 20.33,
-    "chars_per_token": 1.92
+    "tokens_per_line": 15.0,
+    "chars_per_token": 2.6
   },
   {
     "filepath": "benchmark/rust/task5_class.rs",
     "language": "rust",
     "task": "task5_class",
     "characters": 285,
-    "tokens": 128,
+    "tokens": 95,
     "lines": 16,
-    "tokens_per_line": 8.0,
-    "chars_per_token": 2.23
+    "tokens_per_line": 5.94,
+    "chars_per_token": 3.0
   },
   {
     "filepath": "benchmark/rust/task6_fileio.rs",
     "language": "rust",
     "task": "task6_fileio",
     "characters": 499,
-    "tokens": 209,
+    "tokens": 138,
     "lines": 18,
-    "tokens_per_line": 11.61,
-    "chars_per_token": 2.39
+    "tokens_per_line": 7.67,
+    "chars_per_token": 3.62
   },
   {
     "filepath": "benchmark/rust/task7_error.rs",
     "language": "rust",
     "task": "task7_error",
     "characters": 97,
-    "tokens": 51,
+    "tokens": 33,
     "lines": 3,
-    "tokens_per_line": 17.0,
-    "chars_per_token": 1.9
+    "tokens_per_line": 11.0,
+    "chars_per_token": 2.94
   },
   {
     "filepath": "benchmark/rust/task8_http.rs",
     "language": "rust",
     "task": "task8_http",
     "characters": 190,
-    "tokens": 81,
+    "tokens": 53,
     "lines": 7,
-    "tokens_per_line": 11.57,
-    "chars_per_token": 2.35
+    "tokens_per_line": 7.57,
+    "chars_per_token": 3.58
   },
   {
     "filepath": "benchmark/sas/task1_hello.sas",
     "language": "sas",
     "task": "task1_hello",
     "characters": 43,
-    "tokens": 15,
+    "tokens": 13,
     "lines": 3,
-    "tokens_per_line": 5.0,
-    "chars_per_token": 2.87
+    "tokens_per_line": 4.33,
+    "chars_per_token": 3.31
   },
   {
     "filepath": "benchmark/sas/task4_list.sas",
     "language": "sas",
     "task": "task4_list",
     "characters": 83,
-    "tokens": 36,
+    "tokens": 29,
     "lines": 5,
-    "tokens_per_line": 7.2,
-    "chars_per_token": 2.31
+    "tokens_per_line": 5.8,
+    "chars_per_token": 2.86
   },
   {
     "filepath": "benchmark/sas/task6_fileio.sas",
     "language": "sas",
     "task": "task6_fileio",
     "characters": 148,
-    "tokens": 54,
+    "tokens": 41,
     "lines": 9,
-    "tokens_per_line": 6.0,
-    "chars_per_token": 2.74
+    "tokens_per_line": 4.56,
+    "chars_per_token": 3.61
   },
   {
     "filepath": "benchmark/sql/task4_list.sql",
     "language": "sql",
     "task": "task4_list",
     "characters": 58,
-    "tokens": 23,
+    "tokens": 20,
     "lines": 3,
-    "tokens_per_line": 7.67,
-    "chars_per_token": 2.52
+    "tokens_per_line": 6.67,
+    "chars_per_token": 2.9
   },
   {
     "filepath": "benchmark/sql/task6_fileio.sql",
     "language": "sql",
     "task": "task6_fileio",
     "characters": 85,
-    "tokens": 33,
+    "tokens": 21,
     "lines": 4,
-    "tokens_per_line": 8.25,
-    "chars_per_token": 2.58
+    "tokens_per_line": 5.25,
+    "chars_per_token": 4.05
   },
   {
     "filepath": "benchmark/swift/task1_hello.swift",
     "language": "swift",
     "task": "task1_hello",
     "characters": 23,
-    "tokens": 9,
+    "tokens": 6,
     "lines": 1,
-    "tokens_per_line": 9.0,
-    "chars_per_token": 2.56
+    "tokens_per_line": 6.0,
+    "chars_per_token": 3.83
   },
   {
     "filepath": "benchmark/swift/task2_function.swift",
     "language": "swift",
     "task": "task2_function",
     "characters": 50,
-    "tokens": 23,
+    "tokens": 21,
     "lines": 3,
-    "tokens_per_line": 7.67,
-    "chars_per_token": 2.17
+    "tokens_per_line": 7.0,
+    "chars_per_token": 2.38
   },
   {
     "filepath": "benchmark/swift/task3_fizzbuzz.swift",
     "language": "swift",
     "task": "task3_fizzbuzz",
     "characters": 174,
-    "tokens": 79,
+    "tokens": 65,
     "lines": 8,
-    "tokens_per_line": 9.88,
-    "chars_per_token": 2.2
+    "tokens_per_line": 8.12,
+    "chars_per_token": 2.68
   },
   {
     "filepath": "benchmark/swift/task4_list.swift",
     "language": "swift",
     "task": "task4_list",
     "characters": 98,
-    "tokens": 45,
+    "tokens": 37,
     "lines": 3,
-    "tokens_per_line": 15.0,
-    "chars_per_token": 2.18
+    "tokens_per_line": 12.33,
+    "chars_per_token": 2.65
   },
   {
     "filepath": "benchmark/swift/task5_class.swift",
     "language": "swift",
     "task": "task5_class",
     "characters": 224,
-    "tokens": 90,
+    "tokens": 62,
     "lines": 12,
-    "tokens_per_line": 7.5,
-    "chars_per_token": 2.49
+    "tokens_per_line": 5.17,
+    "chars_per_token": 3.61
   },
   {
     "filepath": "benchmark/swift/task6_fileio.swift",
     "language": "swift",
     "task": "task6_fileio",
     "characters": 461,
-    "tokens": 177,
+    "tokens": 120,
     "lines": 14,
-    "tokens_per_line": 12.64,
-    "chars_per_token": 2.6
+    "tokens_per_line": 8.57,
+    "chars_per_token": 3.84
   },
   {
     "filepath": "benchmark/swift/task7_error.swift",
     "language": "swift",
     "task": "task7_error",
     "characters": 243,
-    "tokens": 94,
+    "tokens": 62,
     "lines": 6,
-    "tokens_per_line": 15.67,
-    "chars_per_token": 2.59
+    "tokens_per_line": 10.33,
+    "chars_per_token": 3.92
   },
   {
     "filepath": "benchmark/swift/task8_http.swift",
     "language": "swift",
     "task": "task8_http",
     "characters": 274,
-    "tokens": 104,
+    "tokens": 70,
     "lines": 9,
-    "tokens_per_line": 11.56,
-    "chars_per_token": 2.63
+    "tokens_per_line": 7.78,
+    "chars_per_token": 3.91
   },
   {
     "filepath": "benchmark/visualbasic/task1_hello.vb",
     "language": "visualbasic",
     "task": "task1_hello",
     "characters": 94,
-    "tokens": 34,
+    "tokens": 22,
     "lines": 5,
-    "tokens_per_line": 6.8,
-    "chars_per_token": 2.76
+    "tokens_per_line": 4.4,
+    "chars_per_token": 4.27
   },
   {
     "filepath": "benchmark/visualbasic/task2_function.vb",
     "language": "visualbasic",
     "task": "task2_function",
     "characters": 117,
-    "tokens": 41,
+    "tokens": 30,
     "lines": 5,
-    "tokens_per_line": 8.2,
-    "chars_per_token": 2.85
+    "tokens_per_line": 6.0,
+    "chars_per_token": 3.9
   },
   {
     "filepath": "benchmark/visualbasic/task3_fizzbuzz.vb",
     "language": "visualbasic",
     "task": "task3_fizzbuzz",
     "characters": 411,
-    "tokens": 139,
+    "tokens": 95,
     "lines": 15,
-    "tokens_per_line": 9.27,
-    "chars_per_token": 2.96
+    "tokens_per_line": 6.33,
+    "chars_per_token": 4.33
   },
   {
     "filepath": "benchmark/visualbasic/task4_list.vb",
     "language": "visualbasic",
     "task": "task4_list",
     "characters": 227,
-    "tokens": 89,
+    "tokens": 57,
     "lines": 7,
-    "tokens_per_line": 12.71,
-    "chars_per_token": 2.55
+    "tokens_per_line": 8.14,
+    "chars_per_token": 3.98
   },
   {
     "filepath": "benchmark/visualbasic/task5_class.vb",
     "language": "visualbasic",
     "task": "task5_class",
     "characters": 382,
-    "tokens": 142,
+    "tokens": 99,
     "lines": 15,
-    "tokens_per_line": 9.47,
-    "chars_per_token": 2.69
+    "tokens_per_line": 6.6,
+    "chars_per_token": 3.86
   },
   {
     "filepath": "benchmark/visualbasic/task6_fileio.vb",
     "language": "visualbasic",
     "task": "task6_fileio",
     "characters": 476,
-    "tokens": 186,
+    "tokens": 106,
     "lines": 14,
-    "tokens_per_line": 13.29,
-    "chars_per_token": 2.56
+    "tokens_per_line": 7.57,
+    "chars_per_token": 4.49
   },
   {
     "filepath": "benchmark/visualbasic/task7_error.vb",
     "language": "visualbasic",
     "task": "task7_error",
     "characters": 317,
-    "tokens": 112,
+    "tokens": 74,
     "lines": 9,
-    "tokens_per_line": 12.44,
-    "chars_per_token": 2.83
+    "tokens_per_line": 8.22,
+    "chars_per_token": 4.28
   },
   {
     "filepath": "benchmark/visualbasic/task8_http.vb",
     "language": "visualbasic",
     "task": "task8_http",
     "characters": 430,
-    "tokens": 149,
+    "tokens": 86,
     "lines": 14,
-    "tokens_per_line": 10.64,
-    "chars_per_token": 2.89
+    "tokens_per_line": 6.14,
+    "chars_per_token": 5.0
   }
 ]
