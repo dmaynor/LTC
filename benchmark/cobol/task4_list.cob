@@ -1,0 +1,20 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. DOUBLE-EVENS.
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01 WS-NUMBERS.
+          05 WS-NUM PIC S9(4) OCCURS 100 TIMES.
+       01 WS-RESULT.
+          05 WS-RES PIC S9(5) OCCURS 100 TIMES.
+       01 WS-I PIC 9(3).
+       01 WS-J PIC 9(3) VALUE 0.
+       01 WS-MOD PIC 9(1).
+       PROCEDURE DIVISION.
+           PERFORM VARYING WS-I FROM 1 BY 1 UNTIL WS-I > 100
+               DIVIDE WS-NUM(WS-I) BY 2 GIVING WS-MOD REMAINDER WS-MOD
+               IF WS-MOD = 0
+                   ADD 1 TO WS-J
+                   MULTIPLY WS-NUM(WS-I) BY 2 GIVING WS-RES(WS-J)
+               END-IF
+           END-PERFORM.
+           STOP RUN.

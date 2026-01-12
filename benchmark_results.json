@@ -1,0 +1,2132 @@
+[
+  {
+    "filepath": "benchmark/ada/task1_hello.adb",
+    "language": "ada",
+    "task": "task1_hello",
+    "characters": 101,
+    "tokens": 39,
+    "lines": 5,
+    "tokens_per_line": 7.8,
+    "chars_per_token": 2.59
+  },
+  {
+    "filepath": "benchmark/ada/task2_function.adb",
+    "language": "ada",
+    "task": "task2_function",
+    "characters": 79,
+    "tokens": 33,
+    "lines": 4,
+    "tokens_per_line": 8.25,
+    "chars_per_token": 2.39
+  },
+  {
+    "filepath": "benchmark/ada/task3_fizzbuzz.adb",
+    "language": "ada",
+    "task": "task3_fizzbuzz",
+    "characters": 410,
+    "tokens": 154,
+    "lines": 17,
+    "tokens_per_line": 9.06,
+    "chars_per_token": 2.66
+  },
+  {
+    "filepath": "benchmark/ada/task4_list.adb",
+    "language": "ada",
+    "task": "task4_list",
+    "characters": 419,
+    "tokens": 154,
+    "lines": 16,
+    "tokens_per_line": 9.62,
+    "chars_per_token": 2.72
+  },
+  {
+    "filepath": "benchmark/ada/task5_class.adb",
+    "language": "ada",
+    "task": "task5_class",
+    "characters": 430,
+    "tokens": 172,
+    "lines": 15,
+    "tokens_per_line": 11.47,
+    "chars_per_token": 2.5
+  },
+  {
+    "filepath": "benchmark/ada/task6_fileio.adb",
+    "language": "ada",
+    "task": "task6_fileio",
+    "characters": 949,
+    "tokens": 373,
+    "lines": 35,
+    "tokens_per_line": 10.66,
+    "chars_per_token": 2.54
+  },
+  {
+    "filepath": "benchmark/ada/task7_error.adb",
+    "language": "ada",
+    "task": "task7_error",
+    "characters": 318,
+    "tokens": 118,
+    "lines": 9,
+    "tokens_per_line": 13.11,
+    "chars_per_token": 2.69
+  },
+  {
+    "filepath": "benchmark/ada/task8_http.adb",
+    "language": "ada",
+    "task": "task8_http",
+    "characters": 349,
+    "tokens": 129,
+    "lines": 12,
+    "tokens_per_line": 10.75,
+    "chars_per_token": 2.71
+  },
+  {
+    "filepath": "benchmark/assembly/task1_hello.asm",
+    "language": "assembly",
+    "task": "task1_hello",
+    "characters": 229,
+    "tokens": 84,
+    "lines": 17,
+    "tokens_per_line": 4.94,
+    "chars_per_token": 2.73
+  },
+  {
+    "filepath": "benchmark/assembly/task2_function.asm",
+    "language": "assembly",
+    "task": "task2_function",
+    "characters": 77,
+    "tokens": 30,
+    "lines": 7,
+    "tokens_per_line": 4.29,
+    "chars_per_token": 2.57
+  },
+  {
+    "filepath": "benchmark/assembly/task3_fizzbuzz.asm",
+    "language": "assembly",
+    "task": "task3_fizzbuzz",
+    "characters": 1315,
+    "tokens": 492,
+    "lines": 99,
+    "tokens_per_line": 4.97,
+    "chars_per_token": 2.67
+  },
+  {
+    "filepath": "benchmark/c/task1_hello.c",
+    "language": "c",
+    "task": "task1_hello",
+    "characters": 80,
+    "tokens": 37,
+    "lines": 6,
+    "tokens_per_line": 6.17,
+    "chars_per_token": 2.16
+  },
+  {
+    "filepath": "benchmark/c/task2_function.c",
+    "language": "c",
+    "task": "task2_function",
+    "characters": 44,
+    "tokens": 22,
+    "lines": 3,
+    "tokens_per_line": 7.33,
+    "chars_per_token": 2.0
+  },
+  {
+    "filepath": "benchmark/c/task3_fizzbuzz.c",
+    "language": "c",
+    "task": "task3_fizzbuzz",
+    "characters": 313,
+    "tokens": 131,
+    "lines": 15,
+    "tokens_per_line": 8.73,
+    "chars_per_token": 2.39
+  },
+  {
+    "filepath": "benchmark/c/task4_list.c",
+    "language": "c",
+    "task": "task4_list",
+    "characters": 377,
+    "tokens": 170,
+    "lines": 16,
+    "tokens_per_line": 10.62,
+    "chars_per_token": 2.22
+  },
+  {
+    "filepath": "benchmark/c/task5_class.c",
+    "language": "c",
+    "task": "task5_class",
+    "characters": 305,
+    "tokens": 136,
+    "lines": 16,
+    "tokens_per_line": 8.5,
+    "chars_per_token": 2.24
+  },
+  {
+    "filepath": "benchmark/c/task6_fileio.c",
+    "language": "c",
+    "task": "task6_fileio",
+    "characters": 951,
+    "tokens": 392,
+    "lines": 38,
+    "tokens_per_line": 10.32,
+    "chars_per_token": 2.43
+  },
+  {
+    "filepath": "benchmark/c/task7_error.c",
+    "language": "c",
+    "task": "task7_error",
+    "characters": 380,
+    "tokens": 165,
+    "lines": 19,
+    "tokens_per_line": 8.68,
+    "chars_per_token": 2.3
+  },
+  {
+    "filepath": "benchmark/c/task8_http.c",
+    "language": "c",
+    "task": "task8_http",
+    "characters": 1106,
+    "tokens": 426,
+    "lines": 43,
+    "tokens_per_line": 9.91,
+    "chars_per_token": 2.6
+  },
+  {
+    "filepath": "benchmark/classicvb/task1_hello.bas",
+    "language": "classicvb",
+    "task": "task1_hello",
+    "characters": 46,
+    "tokens": 16,
+    "lines": 3,
+    "tokens_per_line": 5.33,
+    "chars_per_token": 2.88
+  },
+  {
+    "filepath": "benchmark/classicvb/task2_function.bas",
+    "language": "classicvb",
+    "task": "task2_function",
+    "characters": 81,
+    "tokens": 30,
+    "lines": 3,
+    "tokens_per_line": 10.0,
+    "chars_per_token": 2.7
+  },
+  {
+    "filepath": "benchmark/classicvb/task3_fizzbuzz.bas",
+    "language": "classicvb",
+    "task": "task3_fizzbuzz",
+    "characters": 320,
+    "tokens": 111,
+    "lines": 14,
+    "tokens_per_line": 7.93,
+    "chars_per_token": 2.88
+  },
+  {
+    "filepath": "benchmark/classicvb/task4_list.bas",
+    "language": "classicvb",
+    "task": "task4_list",
+    "characters": 301,
+    "tokens": 108,
+    "lines": 10,
+    "tokens_per_line": 10.8,
+    "chars_per_token": 2.79
+  },
+  {
+    "filepath": "benchmark/classicvb/task5_class.bas",
+    "language": "classicvb",
+    "task": "task5_class",
+    "characters": 234,
+    "tokens": 92,
+    "lines": 10,
+    "tokens_per_line": 9.2,
+    "chars_per_token": 2.54
+  },
+  {
+    "filepath": "benchmark/classicvb/task6_fileio.bas",
+    "language": "classicvb",
+    "task": "task6_fileio",
+    "characters": 787,
+    "tokens": 275,
+    "lines": 27,
+    "tokens_per_line": 10.19,
+    "chars_per_token": 2.86
+  },
+  {
+    "filepath": "benchmark/classicvb/task7_error.bas",
+    "language": "classicvb",
+    "task": "task7_error",
+    "characters": 215,
+    "tokens": 81,
+    "lines": 7,
+    "tokens_per_line": 11.57,
+    "chars_per_token": 2.65
+  },
+  {
+    "filepath": "benchmark/classicvb/task8_http.bas",
+    "language": "classicvb",
+    "task": "task8_http",
+    "characters": 329,
+    "tokens": 118,
+    "lines": 14,
+    "tokens_per_line": 8.43,
+    "chars_per_token": 2.79
+  },
+  {
+    "filepath": "benchmark/cobol/task1_hello.cob",
+    "language": "cobol",
+    "task": "task1_hello",
+    "characters": 142,
+    "tokens": 48,
+    "lines": 5,
+    "tokens_per_line": 9.6,
+    "chars_per_token": 2.96
+  },
+  {
+    "filepath": "benchmark/cobol/task2_function.cob",
+    "language": "cobol",
+    "task": "task2_function",
+    "characters": 292,
+    "tokens": 117,
+    "lines": 10,
+    "tokens_per_line": 11.7,
+    "chars_per_token": 2.5
+  },
+  {
+    "filepath": "benchmark/cobol/task3_fizzbuzz.cob",
+    "language": "cobol",
+    "task": "task3_fizzbuzz",
+    "characters": 824,
+    "tokens": 283,
+    "lines": 23,
+    "tokens_per_line": 12.3,
+    "chars_per_token": 2.91
+  },
+  {
+    "filepath": "benchmark/cobol/task4_list.cob",
+    "language": "cobol",
+    "task": "task4_list",
+    "characters": 697,
+    "tokens": 274,
+    "lines": 20,
+    "tokens_per_line": 13.7,
+    "chars_per_token": 2.54
+  },
+  {
+    "filepath": "benchmark/cobol/task5_class.cob",
+    "language": "cobol",
+    "task": "task5_class",
+    "characters": 678,
+    "tokens": 287,
+    "lines": 21,
+    "tokens_per_line": 13.67,
+    "chars_per_token": 2.36
+  },
+  {
+    "filepath": "benchmark/cobol/task6_fileio.cob",
+    "language": "cobol",
+    "task": "task6_fileio",
+    "characters": 1166,
+    "tokens": 405,
+    "lines": 34,
+    "tokens_per_line": 11.91,
+    "chars_per_token": 2.88
+  },
+  {
+    "filepath": "benchmark/cobol/task7_error.cob",
+    "language": "cobol",
+    "task": "task7_error",
+    "characters": 544,
+    "tokens": 198,
+    "lines": 17,
+    "tokens_per_line": 11.65,
+    "chars_per_token": 2.75
+  },
+  {
+    "filepath": "benchmark/cobol/task8_http.cob",
+    "language": "cobol",
+    "task": "task8_http",
+    "characters": 503,
+    "tokens": 172,
+    "lines": 14,
+    "tokens_per_line": 12.29,
+    "chars_per_token": 2.92
+  },
+  {
+    "filepath": "benchmark/cpp/task1_hello.cpp",
+    "language": "cpp",
+    "task": "task1_hello",
+    "characters": 97,
+    "tokens": 38,
+    "lines": 6,
+    "tokens_per_line": 6.33,
+    "chars_per_token": 2.55
+  },
+  {
+    "filepath": "benchmark/cpp/task2_function.cpp",
+    "language": "cpp",
+    "task": "task2_function",
+    "characters": 44,
+    "tokens": 22,
+    "lines": 3,
+    "tokens_per_line": 7.33,
+    "chars_per_token": 2.0
+  },
+  {
+    "filepath": "benchmark/cpp/task3_fizzbuzz.cpp",
+    "language": "cpp",
+    "task": "task3_fizzbuzz",
+    "characters": 372,
+    "tokens": 140,
+    "lines": 15,
+    "tokens_per_line": 9.33,
+    "chars_per_token": 2.66
+  },
+  {
+    "filepath": "benchmark/cpp/task4_list.cpp",
+    "language": "cpp",
+    "task": "task4_list",
+    "characters": 244,
+    "tokens": 105,
+    "lines": 11,
+    "tokens_per_line": 9.55,
+    "chars_per_token": 2.32
+  },
+  {
+    "filepath": "benchmark/cpp/task5_class.cpp",
+    "language": "cpp",
+    "task": "task5_class",
+    "characters": 276,
+    "tokens": 126,
+    "lines": 14,
+    "tokens_per_line": 9.0,
+    "chars_per_token": 2.19
+  },
+  {
+    "filepath": "benchmark/cpp/task6_fileio.cpp",
+    "language": "cpp",
+    "task": "task6_fileio",
+    "characters": 413,
+    "tokens": 166,
+    "lines": 17,
+    "tokens_per_line": 9.76,
+    "chars_per_token": 2.49
+  },
+  {
+    "filepath": "benchmark/cpp/task7_error.cpp",
+    "language": "cpp",
+    "task": "task7_error",
+    "characters": 322,
+    "tokens": 141,
+    "lines": 17,
+    "tokens_per_line": 8.29,
+    "chars_per_token": 2.28
+  },
+  {
+    "filepath": "benchmark/cpp/task8_http.cpp",
+    "language": "cpp",
+    "task": "task8_http",
+    "characters": 798,
+    "tokens": 301,
+    "lines": 31,
+    "tokens_per_line": 9.71,
+    "chars_per_token": 2.65
+  },
+  {
+    "filepath": "benchmark/csharp/task1_hello.cs",
+    "language": "csharp",
+    "task": "task1_hello",
+    "characters": 36,
+    "tokens": 14,
+    "lines": 1,
+    "tokens_per_line": 14.0,
+    "chars_per_token": 2.57
+  },
+  {
+    "filepath": "benchmark/csharp/task2_function.cs",
+    "language": "csharp",
+    "task": "task2_function",
+    "characters": 32,
+    "tokens": 16,
+    "lines": 1,
+    "tokens_per_line": 16.0,
+    "chars_per_token": 2.0
+  },
+  {
+    "filepath": "benchmark/csharp/task3_fizzbuzz.cs",
+    "language": "csharp",
+    "task": "task3_fizzbuzz",
+    "characters": 254,
+    "tokens": 108,
+    "lines": 11,
+    "tokens_per_line": 9.82,
+    "chars_per_token": 2.35
+  },
+  {
+    "filepath": "benchmark/csharp/task4_list.cs",
+    "language": "csharp",
+    "task": "task4_list",
+    "characters": 128,
+    "tokens": 60,
+    "lines": 4,
+    "tokens_per_line": 15.0,
+    "chars_per_token": 2.13
+  },
+  {
+    "filepath": "benchmark/csharp/task5_class.cs",
+    "language": "csharp",
+    "task": "task5_class",
+    "characters": 342,
+    "tokens": 145,
+    "lines": 20,
+    "tokens_per_line": 7.25,
+    "chars_per_token": 2.36
+  },
+  {
+    "filepath": "benchmark/csharp/task6_fileio.cs",
+    "language": "csharp",
+    "task": "task6_fileio",
+    "characters": 361,
+    "tokens": 156,
+    "lines": 13,
+    "tokens_per_line": 12.0,
+    "chars_per_token": 2.31
+  },
+  {
+    "filepath": "benchmark/csharp/task7_error.cs",
+    "language": "csharp",
+    "task": "task7_error",
+    "characters": 189,
+    "tokens": 79,
+    "lines": 6,
+    "tokens_per_line": 13.17,
+    "chars_per_token": 2.39
+  },
+  {
+    "filepath": "benchmark/csharp/task8_http.cs",
+    "language": "csharp",
+    "task": "task8_http",
+    "characters": 315,
+    "tokens": 128,
+    "lines": 15,
+    "tokens_per_line": 8.53,
+    "chars_per_token": 2.46
+  },
+  {
+    "filepath": "benchmark/dart/task1_hello.dart",
+    "language": "dart",
+    "task": "task1_hello",
+    "characters": 42,
+    "tokens": 19,
+    "lines": 3,
+    "tokens_per_line": 6.33,
+    "chars_per_token": 2.21
+  },
+  {
+    "filepath": "benchmark/dart/task2_function.dart",
+    "language": "dart",
+    "task": "task2_function",
+    "characters": 32,
+    "tokens": 16,
+    "lines": 1,
+    "tokens_per_line": 16.0,
+    "chars_per_token": 2.0
+  },
+  {
+    "filepath": "benchmark/dart/task3_fizzbuzz.dart",
+    "language": "dart",
+    "task": "task3_fizzbuzz",
+    "characters": 238,
+    "tokens": 111,
+    "lines": 13,
+    "tokens_per_line": 8.54,
+    "chars_per_token": 2.14
+  },
+  {
+    "filepath": "benchmark/dart/task4_list.dart",
+    "language": "dart",
+    "task": "task4_list",
+    "characters": 109,
+    "tokens": 54,
+    "lines": 2,
+    "tokens_per_line": 27.0,
+    "chars_per_token": 2.02
+  },
+  {
+    "filepath": "benchmark/dart/task5_class.dart",
+    "language": "dart",
+    "task": "task5_class",
+    "characters": 212,
+    "tokens": 98,
+    "lines": 13,
+    "tokens_per_line": 7.54,
+    "chars_per_token": 2.16
+  },
+  {
+    "filepath": "benchmark/dart/task6_fileio.dart",
+    "language": "dart",
+    "task": "task6_fileio",
+    "characters": 414,
+    "tokens": 178,
+    "lines": 15,
+    "tokens_per_line": 11.87,
+    "chars_per_token": 2.33
+  },
+  {
+    "filepath": "benchmark/dart/task7_error.dart",
+    "language": "dart",
+    "task": "task7_error",
+    "characters": 185,
+    "tokens": 82,
+    "lines": 7,
+    "tokens_per_line": 11.71,
+    "chars_per_token": 2.26
+  },
+  {
+    "filepath": "benchmark/dart/task8_http.dart",
+    "language": "dart",
+    "task": "task8_http",
+    "characters": 243,
+    "tokens": 105,
+    "lines": 10,
+    "tokens_per_line": 10.5,
+    "chars_per_token": 2.31
+  },
+  {
+    "filepath": "benchmark/delphi/task1_hello.pas",
+    "language": "delphi",
+    "task": "task1_hello",
+    "characters": 54,
+    "tokens": 24,
+    "lines": 4,
+    "tokens_per_line": 6.0,
+    "chars_per_token": 2.25
+  },
+  {
+    "filepath": "benchmark/delphi/task2_function.pas",
+    "language": "delphi",
+    "task": "task2_function",
+    "characters": 68,
+    "tokens": 33,
+    "lines": 4,
+    "tokens_per_line": 8.25,
+    "chars_per_token": 2.06
+  },
+  {
+    "filepath": "benchmark/delphi/task3_fizzbuzz.pas",
+    "language": "delphi",
+    "task": "task3_fizzbuzz",
+    "characters": 265,
+    "tokens": 110,
+    "lines": 16,
+    "tokens_per_line": 6.88,
+    "chars_per_token": 2.41
+  },
+  {
+    "filepath": "benchmark/delphi/task4_list.pas",
+    "language": "delphi",
+    "task": "task4_list",
+    "characters": 413,
+    "tokens": 183,
+    "lines": 18,
+    "tokens_per_line": 10.17,
+    "chars_per_token": 2.26
+  },
+  {
+    "filepath": "benchmark/delphi/task5_class.pas",
+    "language": "delphi",
+    "task": "task5_class",
+    "characters": 521,
+    "tokens": 232,
+    "lines": 35,
+    "tokens_per_line": 6.63,
+    "chars_per_token": 2.25
+  },
+  {
+    "filepath": "benchmark/delphi/task6_fileio.pas",
+    "language": "delphi",
+    "task": "task6_fileio",
+    "characters": 797,
+    "tokens": 332,
+    "lines": 36,
+    "tokens_per_line": 9.22,
+    "chars_per_token": 2.4
+  },
+  {
+    "filepath": "benchmark/delphi/task7_error.pas",
+    "language": "delphi",
+    "task": "task7_error",
+    "characters": 315,
+    "tokens": 130,
+    "lines": 16,
+    "tokens_per_line": 8.12,
+    "chars_per_token": 2.42
+  },
+  {
+    "filepath": "benchmark/delphi/task8_http.pas",
+    "language": "delphi",
+    "task": "task8_http",
+    "characters": 550,
+    "tokens": 225,
+    "lines": 30,
+    "tokens_per_line": 7.5,
+    "chars_per_token": 2.44
+  },
+  {
+    "filepath": "benchmark/fortran/task1_hello.f90",
+    "language": "fortran",
+    "task": "task1_hello",
+    "characters": 61,
+    "tokens": 21,
+    "lines": 3,
+    "tokens_per_line": 7.0,
+    "chars_per_token": 2.9
+  },
+  {
+    "filepath": "benchmark/fortran/task2_function.f90",
+    "language": "fortran",
+    "task": "task2_function",
+    "characters": 109,
+    "tokens": 47,
+    "lines": 5,
+    "tokens_per_line": 9.4,
+    "chars_per_token": 2.32
+  },
+  {
+    "filepath": "benchmark/fortran/task3_fizzbuzz.f90",
+    "language": "fortran",
+    "task": "task3_fizzbuzz",
+    "characters": 333,
+    "tokens": 123,
+    "lines": 14,
+    "tokens_per_line": 8.79,
+    "chars_per_token": 2.71
+  },
+  {
+    "filepath": "benchmark/fortran/task4_list.f90",
+    "language": "fortran",
+    "task": "task4_list",
+    "characters": 317,
+    "tokens": 134,
+    "lines": 12,
+    "tokens_per_line": 11.17,
+    "chars_per_token": 2.37
+  },
+  {
+    "filepath": "benchmark/fortran/task5_class.f90",
+    "language": "fortran",
+    "task": "task5_class",
+    "characters": 412,
+    "tokens": 153,
+    "lines": 16,
+    "tokens_per_line": 9.56,
+    "chars_per_token": 2.69
+  },
+  {
+    "filepath": "benchmark/fortran/task6_fileio.f90",
+    "language": "fortran",
+    "task": "task6_fileio",
+    "characters": 925,
+    "tokens": 364,
+    "lines": 38,
+    "tokens_per_line": 9.58,
+    "chars_per_token": 2.54
+  },
+  {
+    "filepath": "benchmark/fortran/task7_error.f90",
+    "language": "fortran",
+    "task": "task7_error",
+    "characters": 448,
+    "tokens": 174,
+    "lines": 17,
+    "tokens_per_line": 10.24,
+    "chars_per_token": 2.57
+  },
+  {
+    "filepath": "benchmark/fortran/task8_http.f90",
+    "language": "fortran",
+    "task": "task8_http",
+    "characters": 517,
+    "tokens": 172,
+    "lines": 13,
+    "tokens_per_line": 13.23,
+    "chars_per_token": 3.01
+  },
+  {
+    "filepath": "benchmark/go/task1_hello.go",
+    "language": "go",
+    "task": "task1_hello",
+    "characters": 74,
+    "tokens": 30,
+    "lines": 7,
+    "tokens_per_line": 4.29,
+    "chars_per_token": 2.47
+  },
+  {
+    "filepath": "benchmark/go/task2_function.go",
+    "language": "go",
+    "task": "task2_function",
+    "characters": 55,
+    "tokens": 26,
+    "lines": 5,
+    "tokens_per_line": 5.2,
+    "chars_per_token": 2.12
+  },
+  {
+    "filepath": "benchmark/go/task3_fizzbuzz.go",
+    "language": "go",
+    "task": "task3_fizzbuzz",
+    "characters": 245,
+    "tokens": 114,
+    "lines": 18,
+    "tokens_per_line": 6.33,
+    "chars_per_token": 2.15
+  },
+  {
+    "filepath": "benchmark/go/task4_list.go",
+    "language": "go",
+    "task": "task4_list",
+    "characters": 175,
+    "tokens": 85,
+    "lines": 11,
+    "tokens_per_line": 7.73,
+    "chars_per_token": 2.06
+  },
+  {
+    "filepath": "benchmark/go/task5_class.go",
+    "language": "go",
+    "task": "task5_class",
+    "characters": 257,
+    "tokens": 124,
+    "lines": 17,
+    "tokens_per_line": 7.29,
+    "chars_per_token": 2.07
+  },
+  {
+    "filepath": "benchmark/go/task6_fileio.go",
+    "language": "go",
+    "task": "task6_fileio",
+    "characters": 536,
+    "tokens": 242,
+    "lines": 34,
+    "tokens_per_line": 7.12,
+    "chars_per_token": 2.21
+  },
+  {
+    "filepath": "benchmark/go/task7_error.go",
+    "language": "go",
+    "task": "task7_error",
+    "characters": 97,
+    "tokens": 42,
+    "lines": 7,
+    "tokens_per_line": 6.0,
+    "chars_per_token": 2.31
+  },
+  {
+    "filepath": "benchmark/go/task8_http.go",
+    "language": "go",
+    "task": "task8_http",
+    "characters": 280,
+    "tokens": 127,
+    "lines": 20,
+    "tokens_per_line": 6.35,
+    "chars_per_token": 2.2
+  },
+  {
+    "filepath": "benchmark/java/task1_hello.java",
+    "language": "java",
+    "task": "task1_hello",
+    "characters": 119,
+    "tokens": 46,
+    "lines": 5,
+    "tokens_per_line": 9.2,
+    "chars_per_token": 2.59
+  },
+  {
+    "filepath": "benchmark/java/task2_function.java",
+    "language": "java",
+    "task": "task2_function",
+    "characters": 92,
+    "tokens": 38,
+    "lines": 5,
+    "tokens_per_line": 7.6,
+    "chars_per_token": 2.42
+  },
+  {
+    "filepath": "benchmark/java/task3_fizzbuzz.java",
+    "language": "java",
+    "task": "task3_fizzbuzz",
+    "characters": 415,
+    "tokens": 160,
+    "lines": 14,
+    "tokens_per_line": 11.43,
+    "chars_per_token": 2.59
+  },
+  {
+    "filepath": "benchmark/java/task4_list.java",
+    "language": "java",
+    "task": "task4_list",
+    "characters": 301,
+    "tokens": 122,
+    "lines": 11,
+    "tokens_per_line": 11.09,
+    "chars_per_token": 2.47
+  },
+  {
+    "filepath": "benchmark/java/task5_class.java",
+    "language": "java",
+    "task": "task5_class",
+    "characters": 325,
+    "tokens": 135,
+    "lines": 15,
+    "tokens_per_line": 9.0,
+    "chars_per_token": 2.41
+  },
+  {
+    "filepath": "benchmark/java/task6_fileio.java",
+    "language": "java",
+    "task": "task6_fileio",
+    "characters": 826,
+    "tokens": 317,
+    "lines": 23,
+    "tokens_per_line": 13.78,
+    "chars_per_token": 2.61
+  },
+  {
+    "filepath": "benchmark/java/task7_error.java",
+    "language": "java",
+    "task": "task7_error",
+    "characters": 384,
+    "tokens": 151,
+    "lines": 13,
+    "tokens_per_line": 11.62,
+    "chars_per_token": 2.54
+  },
+  {
+    "filepath": "benchmark/java/task8_http.java",
+    "language": "java",
+    "task": "task8_http",
+    "characters": 663,
+    "tokens": 255,
+    "lines": 20,
+    "tokens_per_line": 12.75,
+    "chars_per_token": 2.6
+  },
+  {
+    "filepath": "benchmark/javascript/task1_hello.js",
+    "language": "javascript",
+    "task": "task1_hello",
+    "characters": 30,
+    "tokens": 12,
+    "lines": 1,
+    "tokens_per_line": 12.0,
+    "chars_per_token": 2.5
+  },
+  {
+    "filepath": "benchmark/javascript/task2_function.js",
+    "language": "javascript",
+    "task": "task2_function",
+    "characters": 41,
+    "tokens": 21,
+    "lines": 3,
+    "tokens_per_line": 7.0,
+    "chars_per_token": 1.95
+  },
+  {
+    "filepath": "benchmark/javascript/task3_fizzbuzz.js",
+    "language": "javascript",
+    "task": "task3_fizzbuzz",
+    "characters": 233,
+    "tokens": 102,
+    "lines": 10,
+    "tokens_per_line": 10.2,
+    "chars_per_token": 2.28
+  },
+  {
+    "filepath": "benchmark/javascript/task4_list.js",
+    "language": "javascript",
+    "task": "task4_list",
+    "characters": 95,
+    "tokens": 44,
+    "lines": 3,
+    "tokens_per_line": 14.67,
+    "chars_per_token": 2.16
+  },
+  {
+    "filepath": "benchmark/javascript/task5_class.js",
+    "language": "javascript",
+    "task": "task5_class",
+    "characters": 236,
+    "tokens": 105,
+    "lines": 12,
+    "tokens_per_line": 8.75,
+    "chars_per_token": 2.25
+  },
+  {
+    "filepath": "benchmark/javascript/task6_fileio.js",
+    "language": "javascript",
+    "task": "task6_fileio",
+    "characters": 422,
+    "tokens": 188,
+    "lines": 16,
+    "tokens_per_line": 11.75,
+    "chars_per_token": 2.24
+  },
+  {
+    "filepath": "benchmark/javascript/task7_error.js",
+    "language": "javascript",
+    "task": "task7_error",
+    "characters": 208,
+    "tokens": 86,
+    "lines": 6,
+    "tokens_per_line": 14.33,
+    "chars_per_token": 2.42
+  },
+  {
+    "filepath": "benchmark/javascript/task8_http.js",
+    "language": "javascript",
+    "task": "task8_http",
+    "characters": 255,
+    "tokens": 100,
+    "lines": 9,
+    "tokens_per_line": 11.11,
+    "chars_per_token": 2.55
+  },
+  {
+    "filepath": "benchmark/julia/task1_hello.jl",
+    "language": "julia",
+    "task": "task1_hello",
+    "characters": 25,
+    "tokens": 9,
+    "lines": 1,
+    "tokens_per_line": 9.0,
+    "chars_per_token": 2.78
+  },
+  {
+    "filepath": "benchmark/julia/task2_function.jl",
+    "language": "julia",
+    "task": "task2_function",
+    "characters": 18,
+    "tokens": 12,
+    "lines": 1,
+    "tokens_per_line": 12.0,
+    "chars_per_token": 1.5
+  },
+  {
+    "filepath": "benchmark/julia/task3_fizzbuzz.jl",
+    "language": "julia",
+    "task": "task3_fizzbuzz",
+    "characters": 194,
+    "tokens": 75,
+    "lines": 11,
+    "tokens_per_line": 6.82,
+    "chars_per_token": 2.59
+  },
+  {
+    "filepath": "benchmark/julia/task4_list.jl",
+    "language": "julia",
+    "task": "task4_list",
+    "characters": 63,
+    "tokens": 27,
+    "lines": 1,
+    "tokens_per_line": 27.0,
+    "chars_per_token": 2.33
+  },
+  {
+    "filepath": "benchmark/julia/task5_class.jl",
+    "language": "julia",
+    "task": "task5_class",
+    "characters": 159,
+    "tokens": 74,
+    "lines": 10,
+    "tokens_per_line": 7.4,
+    "chars_per_token": 2.15
+  },
+  {
+    "filepath": "benchmark/julia/task6_fileio.jl",
+    "language": "julia",
+    "task": "task6_fileio",
+    "characters": 351,
+    "tokens": 133,
+    "lines": 15,
+    "tokens_per_line": 8.87,
+    "chars_per_token": 2.64
+  },
+  {
+    "filepath": "benchmark/julia/task7_error.jl",
+    "language": "julia",
+    "task": "task7_error",
+    "characters": 137,
+    "tokens": 59,
+    "lines": 7,
+    "tokens_per_line": 8.43,
+    "chars_per_token": 2.32
+  },
+  {
+    "filepath": "benchmark/julia/task8_http.jl",
+    "language": "julia",
+    "task": "task8_http",
+    "characters": 180,
+    "tokens": 72,
+    "lines": 10,
+    "tokens_per_line": 7.2,
+    "chars_per_token": 2.5
+  },
+  {
+    "filepath": "benchmark/kotlin/task1_hello.kt",
+    "language": "kotlin",
+    "task": "task1_hello",
+    "characters": 44,
+    "tokens": 18,
+    "lines": 3,
+    "tokens_per_line": 6.0,
+    "chars_per_token": 2.44
+  },
+  {
+    "filepath": "benchmark/kotlin/task2_function.kt",
+    "language": "kotlin",
+    "task": "task2_function",
+    "characters": 32,
+    "tokens": 17,
+    "lines": 1,
+    "tokens_per_line": 17.0,
+    "chars_per_token": 1.88
+  },
+  {
+    "filepath": "benchmark/kotlin/task3_fizzbuzz.kt",
+    "language": "kotlin",
+    "task": "task3_fizzbuzz",
+    "characters": 205,
+    "tokens": 77,
+    "lines": 10,
+    "tokens_per_line": 7.7,
+    "chars_per_token": 2.66
+  },
+  {
+    "filepath": "benchmark/kotlin/task4_list.kt",
+    "language": "kotlin",
+    "task": "task4_list",
+    "characters": 84,
+    "tokens": 36,
+    "lines": 1,
+    "tokens_per_line": 36.0,
+    "chars_per_token": 2.33
+  },
+  {
+    "filepath": "benchmark/kotlin/task5_class.kt",
+    "language": "kotlin",
+    "task": "task5_class",
+    "characters": 222,
+    "tokens": 92,
+    "lines": 9,
+    "tokens_per_line": 10.22,
+    "chars_per_token": 2.41
+  },
+  {
+    "filepath": "benchmark/kotlin/task6_fileio.kt",
+    "language": "kotlin",
+    "task": "task6_fileio",
+    "characters": 333,
+    "tokens": 135,
+    "lines": 11,
+    "tokens_per_line": 12.27,
+    "chars_per_token": 2.47
+  },
+  {
+    "filepath": "benchmark/kotlin/task7_error.kt",
+    "language": "kotlin",
+    "task": "task7_error",
+    "characters": 65,
+    "tokens": 30,
+    "lines": 1,
+    "tokens_per_line": 30.0,
+    "chars_per_token": 2.17
+  },
+  {
+    "filepath": "benchmark/kotlin/task8_http.kt",
+    "language": "kotlin",
+    "task": "task8_http",
+    "characters": 113,
+    "tokens": 51,
+    "lines": 5,
+    "tokens_per_line": 10.2,
+    "chars_per_token": 2.22
+  },
+  {
+    "filepath": "benchmark/lua/task1_hello.lua",
+    "language": "lua",
+    "task": "task1_hello",
+    "characters": 23,
+    "tokens": 9,
+    "lines": 1,
+    "tokens_per_line": 9.0,
+    "chars_per_token": 2.56
+  },
+  {
+    "filepath": "benchmark/lua/task2_function.lua",
+    "language": "lua",
+    "task": "task2_function",
+    "characters": 40,
+    "tokens": 19,
+    "lines": 3,
+    "tokens_per_line": 6.33,
+    "chars_per_token": 2.11
+  },
+  {
+    "filepath": "benchmark/lua/task3_fizzbuzz.lua",
+    "language": "lua",
+    "task": "task3_fizzbuzz",
+    "characters": 204,
+    "tokens": 79,
+    "lines": 11,
+    "tokens_per_line": 7.18,
+    "chars_per_token": 2.58
+  },
+  {
+    "filepath": "benchmark/lua/task4_list.lua",
+    "language": "lua",
+    "task": "task4_list",
+    "characters": 197,
+    "tokens": 76,
+    "lines": 9,
+    "tokens_per_line": 8.44,
+    "chars_per_token": 2.59
+  },
+  {
+    "filepath": "benchmark/lua/task5_class.lua",
+    "language": "lua",
+    "task": "task5_class",
+    "characters": 253,
+    "tokens": 112,
+    "lines": 12,
+    "tokens_per_line": 9.33,
+    "chars_per_token": 2.26
+  },
+  {
+    "filepath": "benchmark/lua/task6_fileio.lua",
+    "language": "lua",
+    "task": "task6_fileio",
+    "characters": 413,
+    "tokens": 159,
+    "lines": 16,
+    "tokens_per_line": 9.94,
+    "chars_per_token": 2.6
+  },
+  {
+    "filepath": "benchmark/lua/task7_error.lua",
+    "language": "lua",
+    "task": "task7_error",
+    "characters": 203,
+    "tokens": 78,
+    "lines": 7,
+    "tokens_per_line": 11.14,
+    "chars_per_token": 2.6
+  },
+  {
+    "filepath": "benchmark/lua/task8_http.lua",
+    "language": "lua",
+    "task": "task8_http",
+    "characters": 254,
+    "tokens": 89,
+    "lines": 9,
+    "tokens_per_line": 9.89,
+    "chars_per_token": 2.85
+  },
+  {
+    "filepath": "benchmark/matlab/task1_hello.m",
+    "language": "matlab",
+    "task": "task1_hello",
+    "characters": 22,
+    "tokens": 8,
+    "lines": 1,
+    "tokens_per_line": 8.0,
+    "chars_per_token": 2.75
+  },
+  {
+    "filepath": "benchmark/matlab/task2_function.m",
+    "language": "matlab",
+    "task": "task2_function",
+    "characters": 42,
+    "tokens": 22,
+    "lines": 3,
+    "tokens_per_line": 7.33,
+    "chars_per_token": 1.91
+  },
+  {
+    "filepath": "benchmark/matlab/task3_fizzbuzz.m",
+    "language": "matlab",
+    "task": "task3_fizzbuzz",
+    "characters": 193,
+    "tokens": 80,
+    "lines": 11,
+    "tokens_per_line": 7.27,
+    "chars_per_token": 2.41
+  },
+  {
+    "filepath": "benchmark/matlab/task4_list.m",
+    "language": "matlab",
+    "task": "task4_list",
+    "characters": 111,
+    "tokens": 46,
+    "lines": 4,
+    "tokens_per_line": 11.5,
+    "chars_per_token": 2.41
+  },
+  {
+    "filepath": "benchmark/matlab/task5_class.m",
+    "language": "matlab",
+    "task": "task5_class",
+    "characters": 335,
+    "tokens": 136,
+    "lines": 17,
+    "tokens_per_line": 8.0,
+    "chars_per_token": 2.46
+  },
+  {
+    "filepath": "benchmark/matlab/task6_fileio.m",
+    "language": "matlab",
+    "task": "task6_fileio",
+    "characters": 343,
+    "tokens": 143,
+    "lines": 12,
+    "tokens_per_line": 11.92,
+    "chars_per_token": 2.4
+  },
+  {
+    "filepath": "benchmark/matlab/task7_error.m",
+    "language": "matlab",
+    "task": "task7_error",
+    "characters": 301,
+    "tokens": 120,
+    "lines": 12,
+    "tokens_per_line": 10.0,
+    "chars_per_token": 2.51
+  },
+  {
+    "filepath": "benchmark/matlab/task8_http.m",
+    "language": "matlab",
+    "task": "task8_http",
+    "characters": 178,
+    "tokens": 68,
+    "lines": 9,
+    "tokens_per_line": 7.56,
+    "chars_per_token": 2.62
+  },
+  {
+    "filepath": "benchmark/objectivec/task1_hello.m",
+    "language": "objectivec",
+    "task": "task1_hello",
+    "characters": 126,
+    "tokens": 54,
+    "lines": 8,
+    "tokens_per_line": 6.75,
+    "chars_per_token": 2.33
+  },
+  {
+    "filepath": "benchmark/objectivec/task2_function.m",
+    "language": "objectivec",
+    "task": "task2_function",
+    "characters": 44,
+    "tokens": 22,
+    "lines": 3,
+    "tokens_per_line": 7.33,
+    "chars_per_token": 2.0
+  },
+  {
+    "filepath": "benchmark/objectivec/task3_fizzbuzz.m",
+    "language": "objectivec",
+    "task": "task3_fizzbuzz",
+    "characters": 389,
+    "tokens": 158,
+    "lines": 17,
+    "tokens_per_line": 9.29,
+    "chars_per_token": 2.46
+  },
+  {
+    "filepath": "benchmark/objectivec/task4_list.m",
+    "language": "objectivec",
+    "task": "task4_list",
+    "characters": 290,
+    "tokens": 124,
+    "lines": 11,
+    "tokens_per_line": 11.27,
+    "chars_per_token": 2.34
+  },
+  {
+    "filepath": "benchmark/objectivec/task5_class.m",
+    "language": "objectivec",
+    "task": "task5_class",
+    "characters": 530,
+    "tokens": 241,
+    "lines": 26,
+    "tokens_per_line": 9.27,
+    "chars_per_token": 2.2
+  },
+  {
+    "filepath": "benchmark/objectivec/task6_fileio.m",
+    "language": "objectivec",
+    "task": "task6_fileio",
+    "characters": 712,
+    "tokens": 265,
+    "lines": 17,
+    "tokens_per_line": 15.59,
+    "chars_per_token": 2.69
+  },
+  {
+    "filepath": "benchmark/objectivec/task7_error.m",
+    "language": "objectivec",
+    "task": "task7_error",
+    "characters": 335,
+    "tokens": 138,
+    "lines": 10,
+    "tokens_per_line": 13.8,
+    "chars_per_token": 2.43
+  },
+  {
+    "filepath": "benchmark/objectivec/task8_http.m",
+    "language": "objectivec",
+    "task": "task8_http",
+    "characters": 561,
+    "tokens": 212,
+    "lines": 14,
+    "tokens_per_line": 15.14,
+    "chars_per_token": 2.65
+  },
+  {
+    "filepath": "benchmark/perl/task1_hello.pl",
+    "language": "perl",
+    "task": "task1_hello",
+    "characters": 41,
+    "tokens": 18,
+    "lines": 2,
+    "tokens_per_line": 9.0,
+    "chars_per_token": 2.28
+  },
+  {
+    "filepath": "benchmark/perl/task2_function.pl",
+    "language": "perl",
+    "task": "task2_function",
+    "characters": 54,
+    "tokens": 30,
+    "lines": 4,
+    "tokens_per_line": 7.5,
+    "chars_per_token": 1.8
+  },
+  {
+    "filepath": "benchmark/perl/task3_fizzbuzz.pl",
+    "language": "perl",
+    "task": "task3_fizzbuzz",
+    "characters": 236,
+    "tokens": 103,
+    "lines": 12,
+    "tokens_per_line": 8.58,
+    "chars_per_token": 2.29
+  },
+  {
+    "filepath": "benchmark/perl/task4_list.pl",
+    "language": "perl",
+    "task": "task4_list",
+    "characters": 100,
+    "tokens": 41,
+    "lines": 4,
+    "tokens_per_line": 10.25,
+    "chars_per_token": 2.44
+  },
+  {
+    "filepath": "benchmark/perl/task5_class.pl",
+    "language": "perl",
+    "task": "task5_class",
+    "characters": 277,
+    "tokens": 141,
+    "lines": 15,
+    "tokens_per_line": 9.4,
+    "chars_per_token": 1.96
+  },
+  {
+    "filepath": "benchmark/perl/task6_fileio.pl",
+    "language": "perl",
+    "task": "task6_fileio",
+    "characters": 314,
+    "tokens": 130,
+    "lines": 14,
+    "tokens_per_line": 9.29,
+    "chars_per_token": 2.42
+  },
+  {
+    "filepath": "benchmark/perl/task7_error.pl",
+    "language": "perl",
+    "task": "task7_error",
+    "characters": 184,
+    "tokens": 83,
+    "lines": 7,
+    "tokens_per_line": 11.86,
+    "chars_per_token": 2.22
+  },
+  {
+    "filepath": "benchmark/perl/task8_http.pl",
+    "language": "perl",
+    "task": "task8_http",
+    "characters": 231,
+    "tokens": 92,
+    "lines": 10,
+    "tokens_per_line": 9.2,
+    "chars_per_token": 2.51
+  },
+  {
+    "filepath": "benchmark/php/task1_hello.php",
+    "language": "php",
+    "task": "task1_hello",
+    "characters": 30,
+    "tokens": 12,
+    "lines": 2,
+    "tokens_per_line": 6.0,
+    "chars_per_token": 2.5
+  },
+  {
+    "filepath": "benchmark/php/task2_function.php",
+    "language": "php",
+    "task": "task2_function",
+    "characters": 51,
+    "tokens": 29,
+    "lines": 4,
+    "tokens_per_line": 7.25,
+    "chars_per_token": 1.76
+  },
+  {
+    "filepath": "benchmark/php/task3_fizzbuzz.php",
+    "language": "php",
+    "task": "task3_fizzbuzz",
+    "characters": 215,
+    "tokens": 91,
+    "lines": 11,
+    "tokens_per_line": 8.27,
+    "chars_per_token": 2.36
+  },
+  {
+    "filepath": "benchmark/php/task4_list.php",
+    "language": "php",
+    "task": "task4_list",
+    "characters": 142,
+    "tokens": 68,
+    "lines": 4,
+    "tokens_per_line": 17.0,
+    "chars_per_token": 2.09
+  },
+  {
+    "filepath": "benchmark/php/task5_class.php",
+    "language": "php",
+    "task": "task5_class",
+    "characters": 290,
+    "tokens": 125,
+    "lines": 13,
+    "tokens_per_line": 9.62,
+    "chars_per_token": 2.32
+  },
+  {
+    "filepath": "benchmark/php/task6_fileio.php",
+    "language": "php",
+    "task": "task6_fileio",
+    "characters": 378,
+    "tokens": 151,
+    "lines": 12,
+    "tokens_per_line": 12.58,
+    "chars_per_token": 2.5
+  },
+  {
+    "filepath": "benchmark/php/task7_error.php",
+    "language": "php",
+    "task": "task7_error",
+    "characters": 243,
+    "tokens": 99,
+    "lines": 7,
+    "tokens_per_line": 14.14,
+    "chars_per_token": 2.45
+  },
+  {
+    "filepath": "benchmark/php/task8_http.php",
+    "language": "php",
+    "task": "task8_http",
+    "characters": 249,
+    "tokens": 93,
+    "lines": 8,
+    "tokens_per_line": 11.62,
+    "chars_per_token": 2.68
+  },
+  {
+    "filepath": "benchmark/prolog/task1_hello.pl",
+    "language": "prolog",
+    "task": "task1_hello",
+    "characters": 62,
+    "tokens": 27,
+    "lines": 3,
+    "tokens_per_line": 9.0,
+    "chars_per_token": 2.3
+  },
+  {
+    "filepath": "benchmark/prolog/task2_function.pl",
+    "language": "prolog",
+    "task": "task2_function",
+    "characters": 28,
+    "tokens": 18,
+    "lines": 1,
+    "tokens_per_line": 18.0,
+    "chars_per_token": 1.56
+  },
+  {
+    "filepath": "benchmark/prolog/task3_fizzbuzz.pl",
+    "language": "prolog",
+    "task": "task3_fizzbuzz",
+    "characters": 204,
+    "tokens": 91,
+    "lines": 8,
+    "tokens_per_line": 11.38,
+    "chars_per_token": 2.24
+  },
+  {
+    "filepath": "benchmark/prolog/task4_list.pl",
+    "language": "prolog",
+    "task": "task4_list",
+    "characters": 158,
+    "tokens": 72,
+    "lines": 6,
+    "tokens_per_line": 12.0,
+    "chars_per_token": 2.19
+  },
+  {
+    "filepath": "benchmark/prolog/task5_class.pl",
+    "language": "prolog",
+    "task": "task5_class",
+    "characters": 147,
+    "tokens": 75,
+    "lines": 6,
+    "tokens_per_line": 12.5,
+    "chars_per_token": 1.96
+  },
+  {
+    "filepath": "benchmark/python/task1_hello.py",
+    "language": "python",
+    "task": "task1_hello",
+    "characters": 23,
+    "tokens": 9,
+    "lines": 1,
+    "tokens_per_line": 9.0,
+    "chars_per_token": 2.56
+  },
+  {
+    "filepath": "benchmark/python/task2_function.py",
+    "language": "python",
+    "task": "task2_function",
+    "characters": 32,
+    "tokens": 17,
+    "lines": 2,
+    "tokens_per_line": 8.5,
+    "chars_per_token": 1.88
+  },
+  {
+    "filepath": "benchmark/python/task3_fizzbuzz.py",
+    "language": "python",
+    "task": "task3_fizzbuzz",
+    "characters": 183,
+    "tokens": 77,
+    "lines": 9,
+    "tokens_per_line": 8.56,
+    "chars_per_token": 2.38
+  },
+  {
+    "filepath": "benchmark/python/task4_list.py",
+    "language": "python",
+    "task": "task4_list",
+    "characters": 77,
+    "tokens": 32,
+    "lines": 2,
+    "tokens_per_line": 16.0,
+    "chars_per_token": 2.41
+  },
+  {
+    "filepath": "benchmark/python/task5_class.py",
+    "language": "python",
+    "task": "task5_class",
+    "characters": 205,
+    "tokens": 91,
+    "lines": 9,
+    "tokens_per_line": 10.11,
+    "chars_per_token": 2.25
+  },
+  {
+    "filepath": "benchmark/python/task6_fileio.py",
+    "language": "python",
+    "task": "task6_fileio",
+    "characters": 291,
+    "tokens": 112,
+    "lines": 9,
+    "tokens_per_line": 12.44,
+    "chars_per_token": 2.6
+  },
+  {
+    "filepath": "benchmark/python/task7_error.py",
+    "language": "python",
+    "task": "task7_error",
+    "characters": 116,
+    "tokens": 52,
+    "lines": 5,
+    "tokens_per_line": 10.4,
+    "chars_per_token": 2.23
+  },
+  {
+    "filepath": "benchmark/python/task8_http.py",
+    "language": "python",
+    "task": "task8_http",
+    "characters": 255,
+    "tokens": 101,
+    "lines": 9,
+    "tokens_per_line": 11.22,
+    "chars_per_token": 2.52
+  },
+  {
+    "filepath": "benchmark/r/task1_hello.r",
+    "language": "r",
+    "task": "task1_hello",
+    "characters": 23,
+    "tokens": 9,
+    "lines": 1,
+    "tokens_per_line": 9.0,
+    "chars_per_token": 2.56
+  },
+  {
+    "filepath": "benchmark/r/task2_function.r",
+    "language": "r",
+    "task": "task2_function",
+    "characters": 34,
+    "tokens": 20,
+    "lines": 3,
+    "tokens_per_line": 6.67,
+    "chars_per_token": 1.7
+  },
+  {
+    "filepath": "benchmark/r/task3_fizzbuzz.r",
+    "language": "r",
+    "task": "task3_fizzbuzz",
+    "characters": 185,
+    "tokens": 90,
+    "lines": 11,
+    "tokens_per_line": 8.18,
+    "chars_per_token": 2.06
+  },
+  {
+    "filepath": "benchmark/r/task4_list.r",
+    "language": "r",
+    "task": "task4_list",
+    "characters": 88,
+    "tokens": 40,
+    "lines": 4,
+    "tokens_per_line": 10.0,
+    "chars_per_token": 2.2
+  },
+  {
+    "filepath": "benchmark/r/task5_class.r",
+    "language": "r",
+    "task": "task5_class",
+    "characters": 276,
+    "tokens": 128,
+    "lines": 12,
+    "tokens_per_line": 10.67,
+    "chars_per_token": 2.16
+  },
+  {
+    "filepath": "benchmark/r/task6_fileio.r",
+    "language": "r",
+    "task": "task6_fileio",
+    "characters": 239,
+    "tokens": 101,
+    "lines": 7,
+    "tokens_per_line": 14.43,
+    "chars_per_token": 2.37
+  },
+  {
+    "filepath": "benchmark/r/task7_error.r",
+    "language": "r",
+    "task": "task7_error",
+    "characters": 266,
+    "tokens": 114,
+    "lines": 8,
+    "tokens_per_line": 14.25,
+    "chars_per_token": 2.33
+  },
+  {
+    "filepath": "benchmark/r/task8_http.r",
+    "language": "r",
+    "task": "task8_http",
+    "characters": 185,
+    "tokens": 78,
+    "lines": 6,
+    "tokens_per_line": 13.0,
+    "chars_per_token": 2.37
+  },
+  {
+    "filepath": "benchmark/ruby/task1_hello.rb",
+    "language": "ruby",
+    "task": "task1_hello",
+    "characters": 21,
+    "tokens": 6,
+    "lines": 1,
+    "tokens_per_line": 6.0,
+    "chars_per_token": 3.5
+  },
+  {
+    "filepath": "benchmark/ruby/task2_function.rb",
+    "language": "ruby",
+    "task": "task2_function",
+    "characters": 26,
+    "tokens": 16,
+    "lines": 3,
+    "tokens_per_line": 5.33,
+    "chars_per_token": 1.62
+  },
+  {
+    "filepath": "benchmark/ruby/task3_fizzbuzz.rb",
+    "language": "ruby",
+    "task": "task3_fizzbuzz",
+    "characters": 156,
+    "tokens": 64,
+    "lines": 11,
+    "tokens_per_line": 5.82,
+    "chars_per_token": 2.44
+  },
+  {
+    "filepath": "benchmark/ruby/task4_list.rb",
+    "language": "ruby",
+    "task": "task4_list",
+    "characters": 81,
+    "tokens": 39,
+    "lines": 3,
+    "tokens_per_line": 13.0,
+    "chars_per_token": 2.08
+  },
+  {
+    "filepath": "benchmark/ruby/task5_class.rb",
+    "language": "ruby",
+    "task": "task5_class",
+    "characters": 198,
+    "tokens": 95,
+    "lines": 14,
+    "tokens_per_line": 6.79,
+    "chars_per_token": 2.08
+  },
+  {
+    "filepath": "benchmark/ruby/task6_fileio.rb",
+    "language": "ruby",
+    "task": "task6_fileio",
+    "characters": 251,
+    "tokens": 102,
+    "lines": 9,
+    "tokens_per_line": 11.33,
+    "chars_per_token": 2.46
+  },
+  {
+    "filepath": "benchmark/ruby/task7_error.rb",
+    "language": "ruby",
+    "task": "task7_error",
+    "characters": 125,
+    "tokens": 54,
+    "lines": 5,
+    "tokens_per_line": 10.8,
+    "chars_per_token": 2.31
+  },
+  {
+    "filepath": "benchmark/ruby/task8_http.rb",
+    "language": "ruby",
+    "task": "task8_http",
+    "characters": 213,
+    "tokens": 84,
+    "lines": 10,
+    "tokens_per_line": 8.4,
+    "chars_per_token": 2.54
+  },
+  {
+    "filepath": "benchmark/rust/task1_hello.rs",
+    "language": "rust",
+    "task": "task1_hello",
+    "characters": 45,
+    "tokens": 20,
+    "lines": 3,
+    "tokens_per_line": 6.67,
+    "chars_per_token": 2.25
+  },
+  {
+    "filepath": "benchmark/rust/task2_function.rs",
+    "language": "rust",
+    "task": "task2_function",
+    "characters": 44,
+    "tokens": 23,
+    "lines": 3,
+    "tokens_per_line": 7.67,
+    "chars_per_token": 1.91
+  },
+  {
+    "filepath": "benchmark/rust/task3_fizzbuzz.rs",
+    "language": "rust",
+    "task": "task3_fizzbuzz",
+    "characters": 244,
+    "tokens": 105,
+    "lines": 10,
+    "tokens_per_line": 10.5,
+    "chars_per_token": 2.32
+  },
+  {
+    "filepath": "benchmark/rust/task4_list.rs",
+    "language": "rust",
+    "task": "task4_list",
+    "characters": 117,
+    "tokens": 61,
+    "lines": 3,
+    "tokens_per_line": 20.33,
+    "chars_per_token": 1.92
+  },
+  {
+    "filepath": "benchmark/rust/task5_class.rs",
+    "language": "rust",
+    "task": "task5_class",
+    "characters": 285,
+    "tokens": 128,
+    "lines": 16,
+    "tokens_per_line": 8.0,
+    "chars_per_token": 2.23
+  },
+  {
+    "filepath": "benchmark/rust/task6_fileio.rs",
+    "language": "rust",
+    "task": "task6_fileio",
+    "characters": 499,
+    "tokens": 209,
+    "lines": 18,
+    "tokens_per_line": 11.61,
+    "chars_per_token": 2.39
+  },
+  {
+    "filepath": "benchmark/rust/task7_error.rs",
+    "language": "rust",
+    "task": "task7_error",
+    "characters": 97,
+    "tokens": 51,
+    "lines": 3,
+    "tokens_per_line": 17.0,
+    "chars_per_token": 1.9
+  },
+  {
+    "filepath": "benchmark/rust/task8_http.rs",
+    "language": "rust",
+    "task": "task8_http",
+    "characters": 190,
+    "tokens": 81,
+    "lines": 7,
+    "tokens_per_line": 11.57,
+    "chars_per_token": 2.35
+  },
+  {
+    "filepath": "benchmark/sas/task1_hello.sas",
+    "language": "sas",
+    "task": "task1_hello",
+    "characters": 43,
+    "tokens": 15,
+    "lines": 3,
+    "tokens_per_line": 5.0,
+    "chars_per_token": 2.87
+  },
+  {
+    "filepath": "benchmark/sas/task4_list.sas",
+    "language": "sas",
+    "task": "task4_list",
+    "characters": 83,
+    "tokens": 36,
+    "lines": 5,
+    "tokens_per_line": 7.2,
+    "chars_per_token": 2.31
+  },
+  {
+    "filepath": "benchmark/sas/task6_fileio.sas",
+    "language": "sas",
+    "task": "task6_fileio",
+    "characters": 148,
+    "tokens": 54,
+    "lines": 9,
+    "tokens_per_line": 6.0,
+    "chars_per_token": 2.74
+  },
+  {
+    "filepath": "benchmark/sql/task4_list.sql",
+    "language": "sql",
+    "task": "task4_list",
+    "characters": 58,
+    "tokens": 23,
+    "lines": 3,
+    "tokens_per_line": 7.67,
+    "chars_per_token": 2.52
+  },
+  {
+    "filepath": "benchmark/sql/task6_fileio.sql",
+    "language": "sql",
+    "task": "task6_fileio",
+    "characters": 85,
+    "tokens": 33,
+    "lines": 4,
+    "tokens_per_line": 8.25,
+    "chars_per_token": 2.58
+  },
+  {
+    "filepath": "benchmark/swift/task1_hello.swift",
+    "language": "swift",
+    "task": "task1_hello",
+    "characters": 23,
+    "tokens": 9,
+    "lines": 1,
+    "tokens_per_line": 9.0,
+    "chars_per_token": 2.56
+  },
+  {
+    "filepath": "benchmark/swift/task2_function.swift",
+    "language": "swift",
+    "task": "task2_function",
+    "characters": 50,
+    "tokens": 23,
+    "lines": 3,
+    "tokens_per_line": 7.67,
+    "chars_per_token": 2.17
+  },
+  {
+    "filepath": "benchmark/swift/task3_fizzbuzz.swift",
+    "language": "swift",
+    "task": "task3_fizzbuzz",
+    "characters": 174,
+    "tokens": 79,
+    "lines": 8,
+    "tokens_per_line": 9.88,
+    "chars_per_token": 2.2
+  },
+  {
+    "filepath": "benchmark/swift/task4_list.swift",
+    "language": "swift",
+    "task": "task4_list",
+    "characters": 98,
+    "tokens": 45,
+    "lines": 3,
+    "tokens_per_line": 15.0,
+    "chars_per_token": 2.18
+  },
+  {
+    "filepath": "benchmark/swift/task5_class.swift",
+    "language": "swift",
+    "task": "task5_class",
+    "characters": 224,
+    "tokens": 90,
+    "lines": 12,
+    "tokens_per_line": 7.5,
+    "chars_per_token": 2.49
+  },
+  {
+    "filepath": "benchmark/swift/task6_fileio.swift",
+    "language": "swift",
+    "task": "task6_fileio",
+    "characters": 461,
+    "tokens": 177,
+    "lines": 14,
+    "tokens_per_line": 12.64,
+    "chars_per_token": 2.6
+  },
+  {
+    "filepath": "benchmark/swift/task7_error.swift",
+    "language": "swift",
+    "task": "task7_error",
+    "characters": 243,
+    "tokens": 94,
+    "lines": 6,
+    "tokens_per_line": 15.67,
+    "chars_per_token": 2.59
+  },
+  {
+    "filepath": "benchmark/swift/task8_http.swift",
+    "language": "swift",
+    "task": "task8_http",
+    "characters": 274,
+    "tokens": 104,
+    "lines": 9,
+    "tokens_per_line": 11.56,
+    "chars_per_token": 2.63
+  },
+  {
+    "filepath": "benchmark/visualbasic/task1_hello.vb",
+    "language": "visualbasic",
+    "task": "task1_hello",
+    "characters": 94,
+    "tokens": 34,
+    "lines": 5,
+    "tokens_per_line": 6.8,
+    "chars_per_token": 2.76
+  },
+  {
+    "filepath": "benchmark/visualbasic/task2_function.vb",
+    "language": "visualbasic",
+    "task": "task2_function",
+    "characters": 117,
+    "tokens": 41,
+    "lines": 5,
+    "tokens_per_line": 8.2,
+    "chars_per_token": 2.85
+  },
+  {
+    "filepath": "benchmark/visualbasic/task3_fizzbuzz.vb",
+    "language": "visualbasic",
+    "task": "task3_fizzbuzz",
+    "characters": 411,
+    "tokens": 139,
+    "lines": 15,
+    "tokens_per_line": 9.27,
+    "chars_per_token": 2.96
+  },
+  {
+    "filepath": "benchmark/visualbasic/task4_list.vb",
+    "language": "visualbasic",
+    "task": "task4_list",
+    "characters": 227,
+    "tokens": 89,
+    "lines": 7,
+    "tokens_per_line": 12.71,
+    "chars_per_token": 2.55
+  },
+  {
+    "filepath": "benchmark/visualbasic/task5_class.vb",
+    "language": "visualbasic",
+    "task": "task5_class",
+    "characters": 382,
+    "tokens": 142,
+    "lines": 15,
+    "tokens_per_line": 9.47,
+    "chars_per_token": 2.69
+  },
+  {
+    "filepath": "benchmark/visualbasic/task6_fileio.vb",
+    "language": "visualbasic",
+    "task": "task6_fileio",
+    "characters": 476,
+    "tokens": 186,
+    "lines": 14,
+    "tokens_per_line": 13.29,
+    "chars_per_token": 2.56
+  },
+  {
+    "filepath": "benchmark/visualbasic/task7_error.vb",
+    "language": "visualbasic",
+    "task": "task7_error",
+    "characters": 317,
+    "tokens": 112,
+    "lines": 9,
+    "tokens_per_line": 12.44,
+    "chars_per_token": 2.83
+  },
+  {
+    "filepath": "benchmark/visualbasic/task8_http.vb",
+    "language": "visualbasic",
+    "task": "task8_http",
+    "characters": 430,
+    "tokens": 149,
+    "lines": 14,
+    "tokens_per_line": 10.64,
+    "chars_per_token": 2.89
+  }
+]

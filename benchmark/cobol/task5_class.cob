@@ -1,0 +1,21 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. POINT.
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01 POINT-1.
+          05 P1-X PIC S9(4)V9(4).
+          05 P1-Y PIC S9(4)V9(4).
+       01 POINT-2.
+          05 P2-X PIC S9(4)V9(4).
+          05 P2-Y PIC S9(4)V9(4).
+       01 WS-DX PIC S9(4)V9(4).
+       01 WS-DY PIC S9(4)V9(4).
+       01 WS-DIST PIC S9(4)V9(4).
+       PROCEDURE DIVISION.
+           SUBTRACT P2-X FROM P1-X GIVING WS-DX
+           SUBTRACT P2-Y FROM P1-Y GIVING WS-DY
+           MULTIPLY WS-DX BY WS-DX
+           MULTIPLY WS-DY BY WS-DY
+           ADD WS-DX TO WS-DY
+           COMPUTE WS-DIST = FUNCTION SQRT(WS-DY)
+           STOP RUN.
