@@ -1,0 +1,530 @@
+{
+  "tokenizers": [
+    "cl100k_base",
+    "o200k_base",
+    "sp_unigram",
+    "sp_bpe"
+  ],
+  "summaries": {
+    "cl100k_base": {
+      "ada": {
+        "tokens": 810,
+        "tasks": 8
+      },
+      "assembly": {
+        "tokens": 651,
+        "tasks": 3
+      },
+      "brainfuck": {
+        "tokens": 389,
+        "tasks": 3
+      },
+      "c": {
+        "tokens": 1020,
+        "tasks": 8
+      },
+      "classicvb": {
+        "tokens": 620,
+        "tasks": 8
+      },
+      "cobol": {
+        "tokens": 1362,
+        "tasks": 8
+      },
+      "cpp": {
+        "tokens": 704,
+        "tasks": 8
+      },
+      "csharp": {
+        "tokens": 433,
+        "tasks": 8
+      },
+      "dart": {
+        "tokens": 450,
+        "tasks": 8
+      },
+      "delphi": {
+        "tokens": 848,
+        "tasks": 8
+      },
+      "fortran": {
+        "tokens": 894,
+        "tasks": 8
+      },
+      "go": {
+        "tokens": 514,
+        "tasks": 8
+      },
+      "haskell": {
+        "tokens": 364,
+        "tasks": 8
+      },
+      "java": {
+        "tokens": 657,
+        "tasks": 8
+      },
+      "javascript": {
+        "tokens": 412,
+        "tasks": 8
+      },
+      "julia": {
+        "tokens": 353,
+        "tasks": 8
+      },
+      "kotlin": {
+        "tokens": 317,
+        "tasks": 8
+      },
+      "lua": {
+        "tokens": 458,
+        "tasks": 8
+      },
+      "matlab": {
+        "tokens": 437,
+        "tasks": 8
+      },
+      "objectivec": {
+        "tokens": 714,
+        "tasks": 8
+      },
+      "ocaml": {
+        "tokens": 493,
+        "tasks": 8
+      },
+      "perl": {
+        "tokens": 478,
+        "tasks": 8
+      },
+      "php": {
+        "tokens": 489,
+        "tasks": 8
+      },
+      "prolog": {
+        "tokens": 219,
+        "tasks": 5
+      },
+      "python": {
+        "tokens": 327,
+        "tasks": 8
+      },
+      "r": {
+        "tokens": 391,
+        "tasks": 8
+      },
+      "ruby": {
+        "tokens": 363,
+        "tasks": 8
+      },
+      "rust": {
+        "tokens": 471,
+        "tasks": 8
+      },
+      "sas": {
+        "tokens": 83,
+        "tasks": 3
+      },
+      "sql": {
+        "tokens": 41,
+        "tasks": 2
+      },
+      "swift": {
+        "tokens": 443,
+        "tasks": 8
+      },
+      "visualbasic": {
+        "tokens": 569,
+        "tasks": 8
+      }
+    },
+    "o200k_base": {
+      "ada": {
+        "tokens": 813,
+        "tasks": 8
+      },
+      "assembly": {
+        "tokens": 655,
+        "tasks": 3
+      },
+      "brainfuck": {
+        "tokens": 403,
+        "tasks": 3
+      },
+      "c": {
+        "tokens": 1031,
+        "tasks": 8
+      },
+      "classicvb": {
+        "tokens": 631,
+        "tasks": 8
+      },
+      "cobol": {
+        "tokens": 1355,
+        "tasks": 8
+      },
+      "cpp": {
+        "tokens": 711,
+        "tasks": 8
+      },
+      "csharp": {
+        "tokens": 451,
+        "tasks": 8
+      },
+      "dart": {
+        "tokens": 459,
+        "tasks": 8
+      },
+      "delphi": {
+        "tokens": 852,
+        "tasks": 8
+      },
+      "fortran": {
+        "tokens": 896,
+        "tasks": 8
+      },
+      "go": {
+        "tokens": 521,
+        "tasks": 8
+      },
+      "haskell": {
+        "tokens": 374,
+        "tasks": 8
+      },
+      "java": {
+        "tokens": 681,
+        "tasks": 8
+      },
+      "javascript": {
+        "tokens": 421,
+        "tasks": 8
+      },
+      "julia": {
+        "tokens": 353,
+        "tasks": 8
+      },
+      "kotlin": {
+        "tokens": 323,
+        "tasks": 8
+      },
+      "lua": {
+        "tokens": 459,
+        "tasks": 8
+      },
+      "matlab": {
+        "tokens": 437,
+        "tasks": 8
+      },
+      "objectivec": {
+        "tokens": 750,
+        "tasks": 8
+      },
+      "ocaml": {
+        "tokens": 495,
+        "tasks": 8
+      },
+      "perl": {
+        "tokens": 481,
+        "tasks": 8
+      },
+      "php": {
+        "tokens": 490,
+        "tasks": 8
+      },
+      "prolog": {
+        "tokens": 219,
+        "tasks": 5
+      },
+      "python": {
+        "tokens": 328,
+        "tasks": 8
+      },
+      "r": {
+        "tokens": 391,
+        "tasks": 8
+      },
+      "ruby": {
+        "tokens": 365,
+        "tasks": 8
+      },
+      "rust": {
+        "tokens": 479,
+        "tasks": 8
+      },
+      "sas": {
+        "tokens": 84,
+        "tasks": 3
+      },
+      "sql": {
+        "tokens": 41,
+        "tasks": 2
+      },
+      "swift": {
+        "tokens": 450,
+        "tasks": 8
+      },
+      "visualbasic": {
+        "tokens": 588,
+        "tasks": 8
+      }
+    },
+    "sp_unigram": {
+      "ada": {
+        "tokens": 1092,
+        "tasks": 8
+      },
+      "assembly": {
+        "tokens": 683,
+        "tasks": 3
+      },
+      "brainfuck": {
+        "tokens": 219,
+        "tasks": 3
+      },
+      "c": {
+        "tokens": 1336,
+        "tasks": 8
+      },
+      "classicvb": {
+        "tokens": 729,
+        "tasks": 8
+      },
+      "cobol": {
+        "tokens": 1823,
+        "tasks": 8
+      },
+      "cpp": {
+        "tokens": 965,
+        "tasks": 8
+      },
+      "csharp": {
+        "tokens": 576,
+        "tasks": 8
+      },
+      "dart": {
+        "tokens": 573,
+        "tasks": 8
+      },
+      "delphi": {
+        "tokens": 1017,
+        "tasks": 8
+      },
+      "fortran": {
+        "tokens": 1024,
+        "tasks": 8
+      },
+      "go": {
+        "tokens": 773,
+        "tasks": 8
+      },
+      "haskell": {
+        "tokens": 429,
+        "tasks": 8
+      },
+      "java": {
+        "tokens": 902,
+        "tasks": 8
+      },
+      "javascript": {
+        "tokens": 552,
+        "tasks": 8
+      },
+      "julia": {
+        "tokens": 386,
+        "tasks": 8
+      },
+      "kotlin": {
+        "tokens": 387,
+        "tasks": 8
+      },
+      "lua": {
+        "tokens": 567,
+        "tasks": 8
+      },
+      "matlab": {
+        "tokens": 513,
+        "tasks": 8
+      },
+      "objectivec": {
+        "tokens": 964,
+        "tasks": 8
+      },
+      "ocaml": {
+        "tokens": 592,
+        "tasks": 8
+      },
+      "perl": {
+        "tokens": 609,
+        "tasks": 8
+      },
+      "php": {
+        "tokens": 632,
+        "tasks": 8
+      },
+      "prolog": {
+        "tokens": 255,
+        "tasks": 5
+      },
+      "python": {
+        "tokens": 412,
+        "tasks": 8
+      },
+      "r": {
+        "tokens": 483,
+        "tasks": 8
+      },
+      "ruby": {
+        "tokens": 425,
+        "tasks": 8
+      },
+      "rust": {
+        "tokens": 586,
+        "tasks": 8
+      },
+      "sas": {
+        "tokens": 102,
+        "tasks": 3
+      },
+      "sql": {
+        "tokens": 59,
+        "tasks": 2
+      },
+      "swift": {
+        "tokens": 563,
+        "tasks": 8
+      },
+      "visualbasic": {
+        "tokens": 736,
+        "tasks": 8
+      }
+    },
+    "sp_bpe": {
+      "ada": {
+        "tokens": 1006,
+        "tasks": 8
+      },
+      "assembly": {
+        "tokens": 673,
+        "tasks": 3
+      },
+      "brainfuck": {
+        "tokens": 327,
+        "tasks": 3
+      },
+      "c": {
+        "tokens": 1254,
+        "tasks": 8
+      },
+      "classicvb": {
+        "tokens": 695,
+        "tasks": 8
+      },
+      "cobol": {
+        "tokens": 1553,
+        "tasks": 8
+      },
+      "cpp": {
+        "tokens": 857,
+        "tasks": 8
+      },
+      "csharp": {
+        "tokens": 527,
+        "tasks": 8
+      },
+      "dart": {
+        "tokens": 532,
+        "tasks": 8
+      },
+      "delphi": {
+        "tokens": 1003,
+        "tasks": 8
+      },
+      "fortran": {
+        "tokens": 998,
+        "tasks": 8
+      },
+      "go": {
+        "tokens": 744,
+        "tasks": 8
+      },
+      "haskell": {
+        "tokens": 453,
+        "tasks": 8
+      },
+      "java": {
+        "tokens": 854,
+        "tasks": 8
+      },
+      "javascript": {
+        "tokens": 485,
+        "tasks": 8
+      },
+      "julia": {
+        "tokens": 371,
+        "tasks": 8
+      },
+      "kotlin": {
+        "tokens": 377,
+        "tasks": 8
+      },
+      "lua": {
+        "tokens": 532,
+        "tasks": 8
+      },
+      "matlab": {
+        "tokens": 511,
+        "tasks": 8
+      },
+      "objectivec": {
+        "tokens": 986,
+        "tasks": 8
+      },
+      "ocaml": {
+        "tokens": 605,
+        "tasks": 8
+      },
+      "perl": {
+        "tokens": 565,
+        "tasks": 8
+      },
+      "php": {
+        "tokens": 557,
+        "tasks": 8
+      },
+      "prolog": {
+        "tokens": 257,
+        "tasks": 5
+      },
+      "python": {
+        "tokens": 398,
+        "tasks": 8
+      },
+      "r": {
+        "tokens": 466,
+        "tasks": 8
+      },
+      "ruby": {
+        "tokens": 425,
+        "tasks": 8
+      },
+      "rust": {
+        "tokens": 586,
+        "tasks": 8
+      },
+      "sas": {
+        "tokens": 105,
+        "tasks": 3
+      },
+      "sql": {
+        "tokens": 61,
+        "tasks": 2
+      },
+      "swift": {
+        "tokens": 552,
+        "tasks": 8
+      },
+      "visualbasic": {
+        "tokens": 673,
+        "tasks": 8
+      }
+    }
+  }
+}
