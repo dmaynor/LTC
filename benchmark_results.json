@@ -110,6 +110,36 @@
     "chars_per_token": 2.45
   },
   {
+    "filepath": "benchmark/brainfuck/task1_hello.bf",
+    "language": "brainfuck",
+    "task": "task1_hello",
+    "characters": 107,
+    "tokens": 51,
+    "lines": 1,
+    "tokens_per_line": 51.0,
+    "chars_per_token": 2.1
+  },
+  {
+    "filepath": "benchmark/brainfuck/task2_function.bf",
+    "language": "brainfuck",
+    "task": "task2_function",
+    "characters": 16,
+    "tokens": 9,
+    "lines": 1,
+    "tokens_per_line": 9.0,
+    "chars_per_token": 1.78
+  },
+  {
+    "filepath": "benchmark/brainfuck/task3_fizzbuzz.bf",
+    "language": "brainfuck",
+    "task": "task3_fizzbuzz",
+    "characters": 814,
+    "tokens": 329,
+    "lines": 12,
+    "tokens_per_line": 27.42,
+    "chars_per_token": 2.47
+  },
+  {
     "filepath": "benchmark/c/task1_hello.c",
     "language": "c",
     "task": "task1_hello",

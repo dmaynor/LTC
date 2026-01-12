@@ -37,29 +37,30 @@ Uses **cl100k_base** encoding via tiktoken - the same tokenizer used by GPT-4 an
 | 6 | julia | 353 | 3.19 | 6.3 | 8 |
 | 7 | ruby | 363 | 2.95 | 6.48 | 8 |
 | 8 | haskell | 364 | 3.19 | 10.11 | 8 |
-| 9 | r | 391 | 3.31 | 7.52 | 8 |
-| 10 | javascript | 412 | 3.69 | 6.87 | 8 |
-| 11 | csharp | 433 | 3.83 | 6.1 | 8 |
-| 12 | matlab | 437 | 3.49 | 6.33 | 8 |
-| 13 | swift | 443 | 3.49 | 7.91 | 8 |
-| 14 | dart | 450 | 3.28 | 7.03 | 8 |
-| 15 | lua | 458 | 3.47 | 6.74 | 8 |
-| 16 | rust | 471 | 3.23 | 7.48 | 8 |
-| 17 | perl | 478 | 3.01 | 7.03 | 8 |
-| 18 | php | 489 | 3.27 | 8.02 | 8 |
-| 19 | ocaml | 493 | 3.1 | 9.67 | 8 |
-| 20 | go | 514 | 3.34 | 4.32 | 8 |
-| 21 | visualbasic | 569 | 4.31 | 6.77 | 8 |
-| 22 | classicvb | 620 | 3.73 | 7.05 | 8 |
-| 23 | assembly | 651 | 2.49 | 5.29 | 3 |
-| 24 | java | 657 | 4.76 | 6.2 | 8 |
-| 25 | cpp | 704 | 3.64 | 6.18 | 8 |
-| 26 | objectivec | 714 | 4.18 | 6.74 | 8 |
-| 27 | ada | 810 | 3.77 | 7.17 | 8 |
-| 28 | delphi | 848 | 3.52 | 5.33 | 8 |
-| 29 | fortran | 894 | 3.49 | 7.58 | 8 |
-| 30 | c | 1020 | 3.49 | 6.54 | 8 |
-| 31 | cobol | 1362 | 3.56 | 9.46 | 8 |
+| 9 | brainfuck | 389 | 2.41 | 27.79 | 3 |
+| 10 | r | 391 | 3.31 | 7.52 | 8 |
+| 11 | javascript | 412 | 3.69 | 6.87 | 8 |
+| 12 | csharp | 433 | 3.83 | 6.1 | 8 |
+| 13 | matlab | 437 | 3.49 | 6.33 | 8 |
+| 14 | swift | 443 | 3.49 | 7.91 | 8 |
+| 15 | dart | 450 | 3.28 | 7.03 | 8 |
+| 16 | lua | 458 | 3.47 | 6.74 | 8 |
+| 17 | rust | 471 | 3.23 | 7.48 | 8 |
+| 18 | perl | 478 | 3.01 | 7.03 | 8 |
+| 19 | php | 489 | 3.27 | 8.02 | 8 |
+| 20 | ocaml | 493 | 3.1 | 9.67 | 8 |
+| 21 | go | 514 | 3.34 | 4.32 | 8 |
+| 22 | visualbasic | 569 | 4.31 | 6.77 | 8 |
+| 23 | classicvb | 620 | 3.73 | 7.05 | 8 |
+| 24 | assembly | 651 | 2.49 | 5.29 | 3 |
+| 25 | java | 657 | 4.76 | 6.2 | 8 |
+| 26 | cpp | 704 | 3.64 | 6.18 | 8 |
+| 27 | objectivec | 714 | 4.18 | 6.74 | 8 |
+| 28 | ada | 810 | 3.77 | 7.17 | 8 |
+| 29 | delphi | 848 | 3.52 | 5.33 | 8 |
+| 30 | fortran | 894 | 3.49 | 7.58 | 8 |
+| 31 | c | 1020 | 3.49 | 6.54 | 8 |
+| 32 | cobol | 1362 | 3.56 | 9.46 | 8 |
 
 ## Normalized Comparison (8-Task Languages Only)
 
@@ -131,41 +132,43 @@ For fair comparison, considering only languages with all 8 tasks:
 | 27 | cpp | 29 |
 | 28 | objectivec | 29 |
 | 29 | cobol | 31 |
-| 30 | assembly | 85 |
+| 30 | brainfuck | 51 |
+| 31 | assembly | 85 |
 
 ### task2_function
 
 | Rank | Language | Tokens |
 |------|----------|--------|
-| 1 | ocaml | 9 |
-| 2 | julia | 10 |
-| 3 | python | 12 |
-| 4 | csharp | 13 |
-| 5 | dart | 13 |
-| 6 | ruby | 13 |
-| 7 | javascript | 14 |
-| 8 | lua | 14 |
-| 9 | prolog | 14 |
-| 10 | r | 14 |
-| 11 | kotlin | 15 |
-| 12 | c | 16 |
-| 13 | cpp | 16 |
-| 14 | objectivec | 16 |
-| 15 | matlab | 17 |
-| 16 | go | 18 |
-| 17 | haskell | 19 |
-| 18 | delphi | 21 |
-| 19 | php | 21 |
-| 20 | swift | 21 |
-| 21 | perl | 22 |
-| 22 | rust | 22 |
-| 23 | ada | 23 |
-| 24 | classicvb | 23 |
-| 25 | java | 25 |
-| 26 | assembly | 29 |
-| 27 | visualbasic | 30 |
-| 28 | fortran | 36 |
-| 29 | cobol | 84 |
+| 1 | brainfuck | 9 |
+| 2 | ocaml | 9 |
+| 3 | julia | 10 |
+| 4 | python | 12 |
+| 5 | csharp | 13 |
+| 6 | dart | 13 |
+| 7 | ruby | 13 |
+| 8 | javascript | 14 |
+| 9 | lua | 14 |
+| 10 | prolog | 14 |
+| 11 | r | 14 |
+| 12 | kotlin | 15 |
+| 13 | c | 16 |
+| 14 | cpp | 16 |
+| 15 | objectivec | 16 |
+| 16 | matlab | 17 |
+| 17 | go | 18 |
+| 18 | haskell | 19 |
+| 19 | delphi | 21 |
+| 20 | php | 21 |
+| 21 | swift | 21 |
+| 22 | perl | 22 |
+| 23 | rust | 22 |
+| 24 | ada | 23 |
+| 25 | classicvb | 23 |
+| 26 | java | 25 |
+| 27 | assembly | 29 |
+| 28 | visualbasic | 30 |
+| 29 | fortran | 36 |
+| 30 | cobol | 84 |
 
 ### task3_fizzbuzz
 
@@ -199,7 +202,8 @@ For fair comparison, considering only languages with all 8 tasks:
 | 26 | ada | 122 |
 | 27 | cpp | 122 |
 | 28 | cobol | 224 |
-| 29 | assembly | 537 |
+| 29 | brainfuck | 329 |
+| 30 | assembly | 537 |
 
 ### task4_list
 
@@ -402,9 +406,9 @@ For fair comparison, considering only languages with all 8 tasks:
 
 | Task | Avg Tokens | Variance | Most Efficient | Least Efficient |
 |------|-----------|----------|----------------|-----------------|
-| Task 1: Hello | 16 | Very High | Julia (6) | Assembly (85) |
-| Task 2: Function | 21 | Very High | Ocaml (9) | Cobol (84) |
-| Task 3: Fizzbuzz | 106 | Very High | Python (63) | Assembly (537) |
+| Task 1: Hello | 18 | Very High | Julia (6) | Assembly (85) |
+| Task 2: Function | 20 | Very High | Brainfuck (9) | Cobol (84) |
+| Task 3: Fizzbuzz | 113 | Very High | Python (63) | Assembly (537) |
 | Task 4: List | 59 | Very High | Sql (20) | Cobol (226) |
 | Task 5: Class | 90 | Very High | Haskell (52) | Cobol (239) |
 | Task 6: Fileio | 134 | Very High | Sql (21) | Cobol (288) |
