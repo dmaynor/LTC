@@ -1,0 +1,3 @@
+# SentencePiece models (train locally with train_sentencepiece.py)
+*.model
+*.vocab
