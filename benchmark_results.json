@@ -830,6 +830,86 @@
     "chars_per_token": 3.59
   },
   {
+    "filepath": "benchmark/haskell/task1_hello.hs",
+    "language": "haskell",
+    "task": "task1_hello",
+    "characters": 32,
+    "tokens": 8,
+    "lines": 1,
+    "tokens_per_line": 8.0,
+    "chars_per_token": 4.0
+  },
+  {
+    "filepath": "benchmark/haskell/task2_function.hs",
+    "language": "haskell",
+    "task": "task2_function",
+    "characters": 44,
+    "tokens": 19,
+    "lines": 2,
+    "tokens_per_line": 9.5,
+    "chars_per_token": 2.32
+  },
+  {
+    "filepath": "benchmark/haskell/task3_fizzbuzz.hs",
+    "language": "haskell",
+    "task": "task3_fizzbuzz",
+    "characters": 210,
+    "tokens": 83,
+    "lines": 7,
+    "tokens_per_line": 11.86,
+    "chars_per_token": 2.53
+  },
+  {
+    "filepath": "benchmark/haskell/task4_list.hs",
+    "language": "haskell",
+    "task": "task4_list",
+    "characters": 67,
+    "tokens": 23,
+    "lines": 2,
+    "tokens_per_line": 11.5,
+    "chars_per_token": 2.91
+  },
+  {
+    "filepath": "benchmark/haskell/task5_class.hs",
+    "language": "haskell",
+    "task": "task5_class",
+    "characters": 148,
+    "tokens": 52,
+    "lines": 4,
+    "tokens_per_line": 13.0,
+    "chars_per_token": 2.85
+  },
+  {
+    "filepath": "benchmark/haskell/task6_fileio.hs",
+    "language": "haskell",
+    "task": "task6_fileio",
+    "characters": 304,
+    "tokens": 90,
+    "lines": 8,
+    "tokens_per_line": 11.25,
+    "chars_per_token": 3.38
+  },
+  {
+    "filepath": "benchmark/haskell/task7_error.hs",
+    "language": "haskell",
+    "task": "task7_error",
+    "characters": 169,
+    "tokens": 45,
+    "lines": 6,
+    "tokens_per_line": 7.5,
+    "chars_per_token": 3.76
+  },
+  {
+    "filepath": "benchmark/haskell/task8_http.hs",
+    "language": "haskell",
+    "task": "task8_http",
+    "characters": 186,
+    "tokens": 44,
+    "lines": 6,
+    "tokens_per_line": 7.33,
+    "chars_per_token": 4.23
+  },
+  {
     "filepath": "benchmark/java/task1_hello.java",
     "language": "java",
     "task": "task1_hello",
@@ -1388,6 +1468,86 @@
     "lines": 14,
     "tokens_per_line": 8.0,
     "chars_per_token": 5.01
+  },
+  {
+    "filepath": "benchmark/ocaml/task1_hello.ml",
+    "language": "ocaml",
+    "task": "task1_hello",
+    "characters": 30,
+    "tokens": 8,
+    "lines": 1,
+    "tokens_per_line": 8.0,
+    "chars_per_token": 3.75
+  },
+  {
+    "filepath": "benchmark/ocaml/task2_function.ml",
+    "language": "ocaml",
+    "task": "task2_function",
+    "characters": 20,
+    "tokens": 9,
+    "lines": 1,
+    "tokens_per_line": 9.0,
+    "chars_per_token": 2.22
+  },
+  {
+    "filepath": "benchmark/ocaml/task3_fizzbuzz.ml",
+    "language": "ocaml",
+    "task": "task3_fizzbuzz",
+    "characters": 207,
+    "tokens": 82,
+    "lines": 7,
+    "tokens_per_line": 11.71,
+    "chars_per_token": 2.52
+  },
+  {
+    "filepath": "benchmark/ocaml/task4_list.ml",
+    "language": "ocaml",
+    "task": "task4_list",
+    "characters": 96,
+    "tokens": 35,
+    "lines": 2,
+    "tokens_per_line": 17.5,
+    "chars_per_token": 2.74
+  },
+  {
+    "filepath": "benchmark/ocaml/task5_class.ml",
+    "language": "ocaml",
+    "task": "task5_class",
+    "characters": 178,
+    "tokens": 69,
+    "lines": 8,
+    "tokens_per_line": 8.62,
+    "chars_per_token": 2.58
+  },
+  {
+    "filepath": "benchmark/ocaml/task6_fileio.ml",
+    "language": "ocaml",
+    "task": "task6_fileio",
+    "characters": 596,
+    "tokens": 174,
+    "lines": 19,
+    "tokens_per_line": 9.16,
+    "chars_per_token": 3.43
+  },
+  {
+    "filepath": "benchmark/ocaml/task7_error.ml",
+    "language": "ocaml",
+    "task": "task7_error",
+    "characters": 114,
+    "tokens": 35,
+    "lines": 4,
+    "tokens_per_line": 8.75,
+    "chars_per_token": 3.26
+  },
+  {
+    "filepath": "benchmark/ocaml/task8_http.ml",
+    "language": "ocaml",
+    "task": "task8_http",
+    "characters": 288,
+    "tokens": 81,
+    "lines": 9,
+    "tokens_per_line": 9.0,
+    "chars_per_token": 3.56
   },
   {
     "filepath": "benchmark/perl/task1_hello.pl",
